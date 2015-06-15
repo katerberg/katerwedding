@@ -1,0 +1,16 @@
+{
+  "name": "katerwedding",
+  "description": "Katerberg Serra Wedding Site",
+  "version": "0.0.0",
+  "homepage": "neemandmarcus.com",
+  "license": "AGPL",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-route": "~1.4.0",
+    "angular-resource": "~1.4.0",
+    "angular-bootstrap": "~0.13.0",
+    "font-awesome": "~4.3.0",
+    "jquery": "~2.1.4"
+  }
+}

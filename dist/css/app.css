@@ -1,0 +1,24 @@
+h2 {
+  color: blue; }
+
+.skrollable {
+  position: fixed;
+  z-index: 100; }
+
+.skrollr-mobile .skrollable {
+  position: absolute; }
+
+.skrollable .skrollable {
+  position: absolute; }
+
+.skrollable .skrollable .skrollable {
+  position: static; }
+
+#welcome .heart {
+  width: 5%;
+  left: 47.5%;
+  top: 20%; }
+#welcome .neem, #welcome .marcus {
+  width: 10%; }
+  #welcome .neem img, #welcome .marcus img {
+    width: 100%; }
