@@ -13,31 +13,27 @@
 
 #welcome #scroll-down {
   top: 300px;
-  left: 50%;
-  margin-left: -3%;
-  position: absolute; }
+  left: 49%; }
   #welcome #scroll-down .vertical-line {
-    height: 1007px;
-    top: -1000px;
-    border: 1px dotted #808285;
     position: absolute;
-    margin-left: 42px; }
-  #welcome #scroll-down i {
-    margin-left: 36px; }
+    top: 0px;
+    left: 50%;
+    height: 259px;
+    border-left: 1px dotted #808285; }
   #welcome #scroll-down label {
     bottom: -65px;
     height: 47px;
     padding-top: 26px; }
+  #welcome #scroll-down i {
+    padding-top: 250px; }
   #welcome #scroll-down i, #welcome #scroll-down label {
     color: #808285;
     display: block;
-    position: absolute;
     text-align: center;
     text-transform: uppercase;
     vertical-align: bottom;
     white-space: nowrap; }
 #welcome .date {
-  top: 25%;
   left: 49%;
   margin-left: -2em;
   font-weight: 100; }

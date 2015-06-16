@@ -16,28 +16,25 @@
 #welcome {
     #scroll-down {
         top: 300px;
-        left: 50%;
-        margin-left: -3%;
-        position: absolute;
+        left: 49%;
         .vertical-line {
-            height: 1007px;
-            top: -1000px;
-            border: 1px dotted #808285;
-            position: absolute;
-            margin-left: 42px;
-        }
-        i {
-            margin-left: 36px;
+            position:absolute;
+            top: 0px;
+            left: 50%;
+            height: 259px;
+            border-left: 1px dotted #808285;
         }
         label {
             bottom: -65px;
             height: 47px;
             padding-top: 26px;
         }
+        i {
+            padding-top: 250px;
+        }
         i, label {
             color: #808285;
             display: block;
-            position: absolute;
             text-align: center;
             text-transform: uppercase;
             vertical-align: bottom;
@@ -45,7 +42,6 @@
         }
     }
     .date {
-        top:25%;
         left:49%;
         margin-left: -2em;
         font-weight: 100;
