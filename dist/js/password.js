@@ -3,16 +3,22 @@
 
 var input = '';
 var expected = 'wedding';
-$('td').click(function() {
-    var ch = $(this).text();
+function handleEntry(ch) {
     if (ch == expected[input.length]) {
-        console.log('correct');
         $('#pw' + input.length).text(ch);
         input += ch;
         if (input == expected) {
             window.location.href = 'index.html';
         }
     }
+}
+
+$('td').click(function() {
+    handleEntry($(this).text());
+});
+
+$(document).keypress(function(e) {
+    handleEntry(e.key);
 });
 
 })();
