@@ -10,7 +10,7 @@ $('td').click(function() {
         $('#pw' + input.length).text(ch);
         input += ch;
         if (input == expected) {
-            window.location.href = '../index.html';
+            window.location.href = 'index.html';
         }
     }
 });
