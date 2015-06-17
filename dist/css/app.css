@@ -19,6 +19,53 @@
   to {
     visibility: hidden; } }
 
+#password {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center; }
+  #password #password-display {
+    padding-top: 200px;
+    padding-bottom: 24px; }
+    #password #password-display h1 {
+      font-size: 24px;
+      color: white;
+      padding-left: 4px;
+      padding-right: 4px;
+      margin-left: 24px;
+      margin-right: 24px;
+      position: relative;
+      background: black;
+      top: -35px; }
+    #password #password-display > span {
+      border: 4px solid white;
+      display: inline-block; }
+    #password #password-display label {
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      font-size: 24px; }
+      #password #password-display label:first-of-type {
+        margin-left: 12px; }
+      #password #password-display label:last-of-type {
+        margin-right: 12px; }
+  #password #password-entry {
+    border: 4px solid white;
+    display: inline-block; }
+    #password #password-entry table {
+      padding: 16px;
+      display: inline-block; }
+      #password #password-entry table td {
+        font-size: 24px;
+        cursor: pointer;
+        padding: 4px;
+        text-transform: uppercase;
+        display: inline-block; }
+        #password #password-entry table td:hover {
+          color: black;
+          background: white; }
+
 #welcome {
   font-family: 'Press Start 2P', cursive;
   background-color: #64b0ff;

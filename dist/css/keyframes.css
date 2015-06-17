@@ -1,0 +1,6 @@
+@-webkit-keyframes blink {
+  to {
+    visibility: hidden; } }
+@keyframes blink {
+  to {
+    visibility: hidden; } }

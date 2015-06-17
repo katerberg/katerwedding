@@ -40,11 +40,6 @@ gulp.task('dependentCss', function() {
 // Concatenate & Minify JS
 gulp.task('scripts', function() {
     return gulp.src([basedir + 'js/**/*.js', '!' + basedir + 'js/**/*.test.js'])
-        .pipe(ngAnnotate())
-        .pipe(concat('app.js'))
-        .pipe(gulp.dest('dist/js'))
-        .pipe(rename('app.min.js'))
-        .pipe(uglify())
         .pipe(gulp.dest('dist/js'));
 });
 

@@ -1,0 +1,12 @@
+.skrollable {
+  position: fixed;
+  z-index: 100; }
+
+.skrollr-mobile .skrollable {
+  position: absolute; }
+
+.skrollable .skrollable {
+  position: absolute; }
+
+.skrollable .skrollable .skrollable {
+  position: static; }
