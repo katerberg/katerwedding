@@ -13,9 +13,17 @@
     position:static;
 }
 
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
 #welcome {
+    font-family: 'Press Start 2P', cursive;
     background-color: rgb(100,176,255);
     height: 100%;
+    color: black;
     .scroll-down {
         top: 300px;
         left: 49%;
@@ -23,19 +31,19 @@
             top: 0px;
             left: 50%;
             height: 259px;
-            border-left: 1px dotted #808285;
+            border-left: 1px dotted black;
             position:absolute;
         }
         label {
             bottom: -65px;
             height: 47px;
             padding-top: 26px;
+            animation: blink 1s steps(5, start) infinite;
         }
         i {
             padding-top: 250px;
         }
         i, label {
-            color: #808285;
             display: block;
             text-align: center;
             text-transform: uppercase;
@@ -44,9 +52,11 @@
         }
     }
     .date {
-        left:49%;
-        margin-left: -2em;
-        font-weight: 100;
+        width: 100%;
+        text-align: center;
+        label {
+            font-weight: 100;
+        }
     }
     .heart {
         width: 5%;
