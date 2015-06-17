@@ -11,22 +11,22 @@
 .skrollable .skrollable .skrollable {
   position: static; }
 
-#welcome #scroll-down {
+#welcome .scroll-down {
   top: 300px;
   left: 49%; }
-  #welcome #scroll-down .vertical-line {
-    position: absolute;
+  #welcome .scroll-down .vertical-line {
     top: 0px;
     left: 50%;
     height: 259px;
-    border-left: 1px dotted #808285; }
-  #welcome #scroll-down label {
+    border-left: 1px dotted #808285;
+    position: absolute; }
+  #welcome .scroll-down label {
     bottom: -65px;
     height: 47px;
     padding-top: 26px; }
-  #welcome #scroll-down i {
+  #welcome .scroll-down i {
     padding-top: 250px; }
-  #welcome #scroll-down i, #welcome #scroll-down label {
+  #welcome .scroll-down i, #welcome .scroll-down label {
     color: #808285;
     display: block;
     text-align: center;
