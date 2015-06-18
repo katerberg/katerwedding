@@ -1,0 +1,10 @@
+#our-story {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  background: url("../images/grass.png");
+  background-repeat: repeat-y;
+  background-size: contain;
+  height: calc(3000px + 100vh);
+  color: black; }
+  #our-story .ipod {
+    padding-top: 150px; }
