@@ -1,10 +1,21 @@
 #our-story {
   text-align: center;
   font-family: 'Press Start 2P', cursive;
-  background: url("../images/grass.png");
-  background-repeat: repeat-y;
-  background-size: contain;
+  background-color: #8080ff;
   height: calc(3000px + 100vh);
   color: black; }
+  #our-story .title {
+    bottom: 400px;
+    text-align: center;
+    font-size: 24px;
+    width: 100%; }
   #our-story .ipod {
-    padding-top: 150px; }
+    left: calc(50% - 142px); }
+  #our-story .floor {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 300;
+    background: url("../images/mario-brick.png");
+    background-repeat: repeat-x;
+    height: 120px; }

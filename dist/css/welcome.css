@@ -34,11 +34,11 @@
   #welcome .heart {
     width: 5%;
     left: 47.5%;
-    bottom: 200px;
+    bottom: 250px;
     z-index: 200; }
   #welcome .neem, #welcome .marcus {
     width: 10%; }
-  #welcome .duck-hunt {
+  #welcome .floor {
     position: fixed;
     bottom: 0;
     width: 100%;
