@@ -124,12 +124,15 @@
     font-size: 24px;
     width: 100%; }
   #our-story .ipod {
-    left: calc(50% - 142px); }
+    z-index: 500; }
   #our-story .floor {
     position: fixed;
     bottom: 0;
     width: 100%;
     z-index: 300;
     background: url("../images/mario-brick.png");
-    background-repeat: repeat-x;
-    height: 120px; }
+    background-repeat: repeat;
+    height: 10vw; }
+  #our-story .neem, #our-story .marcus {
+    width: 10%;
+    bottom: 10vw; }
