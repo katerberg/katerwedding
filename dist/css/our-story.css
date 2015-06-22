@@ -1,9 +1,7 @@
 #our-story {
   text-align: center;
-  font-family: 'Press Start 2P', cursive;
   background-color: #8080ff;
-  height: calc(3000px + 100vh);
-  color: black; }
+  height: calc(3000px + 100vh); }
   #our-story .title {
     bottom: 400px;
     text-align: center;
