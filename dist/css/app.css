@@ -98,15 +98,15 @@
   position: fixed;
   top: 40px;
   left: 40px;
-  z-index: 1500;
-  opacity: 0.5; }
-  #menu:hover {
-    opacity: 0.9; }
+  z-index: 1500; }
   #menu a {
+    opacity: 0.5;
     color: black;
     font-size: 14px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    display: block; }
     #menu a:hover, #menu a:focus {
+      opacity: 0.9;
       color: black;
       text-decoration: none;
       outline: none; }
@@ -162,7 +162,7 @@
 #our-story {
   text-align: center;
   background-color: #8080ff;
-  height: calc(10000px + 100vh); }
+  height: calc(7000px); }
   #our-story .title {
     bottom: 400px;
     text-align: center;

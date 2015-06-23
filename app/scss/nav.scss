@@ -3,14 +3,16 @@
     top: 40px;
     left: 40px;
     z-index: 1500;
-    opacity: 0.5;
-
-    &:hover {
-        opacity: 0.9;
-    }
 
     a {
+        opacity: 0.5;
+        color: black;
+        font-size: 14px;
+        text-transform: uppercase;
+        display: block;
+
         &:hover, &:focus {
+            opacity: 0.9;
             color: black;
             text-decoration: none;
             outline: none;
@@ -21,8 +23,5 @@
         i {
             padding-right: 4px;
         }
-        color: black;
-        font-size: 14px;
-        text-transform: uppercase;
     }
 }
