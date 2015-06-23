@@ -18,8 +18,30 @@
     background-repeat: repeat;
     height: 10vw; }
   #our-story .neem, #our-story .marcus {
-    width: 10%;
     bottom: 10vw; }
+  #our-story .neem {
+    width: 10%; }
+  #our-story .marcus {
+    width: 14.5%; }
+  #our-story .notes {
+    left: 31%;
+    bottom: 26vw;
+    position: fixed; }
+    #our-story .notes .note {
+      background-image: url("../images/note.png");
+      background-size: cover;
+      position: fixed;
+      display: block;
+      -webkit-animation: 2s ease-in 0s normal none infinite running music;
+              animation: 2s ease-in 0s normal none infinite running music;
+      width: 1vw;
+      height: 1.25vw; }
+      #our-story .notes .note:nth-child(1) {
+        -webkit-animation-delay: 0s;
+                animation-delay: 0s; }
+      #our-story .notes .note:nth-child(2) {
+        -webkit-animation-delay: 1.2s;
+                animation-delay: 1.2s; }
   #our-story .cloud {
     width: 10vw;
     left: 0;

@@ -21,8 +21,33 @@
         height: 10vw;
     }
     .neem, .marcus {
-        width: 10%;
         bottom: 10vw;
+    }
+    .neem {
+        width: 10%;
+    }
+    .marcus {
+        width: 14.5%;
+    }
+    .notes {
+        left: 31%;
+        bottom: 26vw;
+        position: fixed;
+        .note {
+            background-image: url("../images/note.png");
+            background-size: cover;
+            position: fixed;
+            display: block;
+            animation: 2s ease-in 0s normal none infinite running music;
+            width: 1vw;
+            height: 1.25vw;
+            &:nth-child(1) {
+                animation-delay: 0s;
+            }
+            &:nth-child(2) {
+                animation-delay: 1.2s;
+            }
+        }
     }
     .cloud {
         width: 10vw;
