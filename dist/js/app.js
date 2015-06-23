@@ -3,7 +3,8 @@
     var s = skrollr.init({
         constants: {
             welcome: 0,
-            story: 3000
+            story: 3000,
+            party: 10000
         },
         smoothScrolling: false
     });

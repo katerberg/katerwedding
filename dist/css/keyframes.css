@@ -1,6 +1,35 @@
 @-webkit-keyframes blink {
   to {
     visibility: hidden; } }
+
 @keyframes blink {
   to {
     visibility: hidden; } }
+
+@-webkit-keyframes cloud {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(88vw);
+            transform: translateX(88vw); }
+
+  1%, 90% {
+    opacity: 1; }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(0vw);
+            transform: translateX(0vw); } }
+
+@keyframes cloud {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(88vw);
+            transform: translateX(88vw); }
+
+  1%, 90% {
+    opacity: 1; }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(0vw);
+            transform: translateX(0vw); } }

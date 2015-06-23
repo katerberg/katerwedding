@@ -1,7 +1,7 @@
 #our-story {
     text-align: center;
     background-color: rgb(128,128,255);
-    height: calc(3000px + 100vh);
+    height: calc(10000px + 100vh);
     .title {
         bottom: 400px;
         text-align: center;
@@ -23,5 +23,11 @@
     .neem, .marcus {
         width: 10%;
         bottom: 10vw;
+    }
+    .cloud {
+        width: 10vw;
+        left: 0;
+        position: fixed;
+        animation: 18s ease 0s normal none infinite running cloud;
     }
 }

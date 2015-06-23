@@ -19,6 +19,34 @@
   to {
     visibility: hidden; } }
 
+@-webkit-keyframes cloud {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(88vw);
+            transform: translateX(88vw); }
+
+  1%, 90% {
+    opacity: 1; }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(0vw);
+            transform: translateX(0vw); } }
+
+@keyframes cloud {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(88vw);
+            transform: translateX(88vw); }
+
+  1%, 90% {
+    opacity: 1; }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(0vw);
+            transform: translateX(0vw); } }
+
 #password {
   background-color: black;
   width: 100%;
@@ -134,7 +162,7 @@
 #our-story {
   text-align: center;
   background-color: #8080ff;
-  height: calc(3000px + 100vh); }
+  height: calc(10000px + 100vh); }
   #our-story .title {
     bottom: 400px;
     text-align: center;
@@ -153,6 +181,12 @@
   #our-story .neem, #our-story .marcus {
     width: 10%;
     bottom: 10vw; }
+  #our-story .cloud {
+    width: 10vw;
+    left: 0;
+    position: fixed;
+    -webkit-animation: 18s ease 0s normal none infinite running cloud;
+            animation: 18s ease 0s normal none infinite running cloud; }
 
 body {
   color: black;
