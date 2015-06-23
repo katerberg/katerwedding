@@ -229,9 +229,13 @@
   #our-story .marcus {
     width: 14.5%; }
   #our-story .notes {
-    left: 31%;
-    bottom: 26vw;
     position: fixed; }
+    #our-story .notes.notes-neem {
+      left: 31%;
+      bottom: 26vw; }
+    #our-story .notes.notes-marcus {
+      left: 66.5%;
+      bottom: 33vw; }
     #our-story .notes .note {
       background-image: url("../images/note.png");
       background-size: cover;

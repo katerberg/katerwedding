@@ -30,9 +30,15 @@
         width: 14.5%;
     }
     .notes {
-        left: 31%;
-        bottom: 26vw;
         position: fixed;
+        &.notes-neem {
+            left: 31%;
+            bottom: 26vw;
+        }
+        &.notes-marcus {
+            left: 66.5%;
+            bottom: 33vw;
+        }
         .note {
             background-image: url("../images/note.png");
             background-size: cover;
