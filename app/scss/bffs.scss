@@ -2,4 +2,13 @@
     text-align: center;
     background-color: #f8f890;
     height: 10000px;
+    .floor {
+        position:fixed;
+        bottom:0;
+        width: 100%;
+        z-index: 301;
+        background: url("../images/zelda-beach.png");
+        background-size: contain;
+        height: 10vw;
+    }
 }
