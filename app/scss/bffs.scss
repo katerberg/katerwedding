@@ -2,6 +2,12 @@
     text-align: center;
     background-color: #f8f890;
     height: 10000px;
+    .title {
+        bottom: 400px;
+        text-align: center;
+        font-size: 24px;
+        width: 100%;
+    }
     .floor {
         position:fixed;
         bottom:0;
@@ -10,5 +16,18 @@
         background: url("../images/zelda-beach.png");
         background-size: contain;
         height: 10vw;
+    }
+
+    .states {
+        width: 100%;
+        .state {
+            height: 35vh;
+        }
+    }
+    .mi {
+        left: 10%;
+    }
+    .mn {
+        right: 10%;
     }
 }

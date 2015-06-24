@@ -50,17 +50,17 @@
       #ipod .notes .note:nth-child(2) {
         -webkit-animation-delay: 1.2s;
                 animation-delay: 1.2s; }
-  #ipod .cloud {
+  #ipod .clouds img {
     width: 10vw;
     left: 0;
     position: fixed;
     -webkit-animation: 18s ease 0s normal none infinite running cloud;
             animation: 18s ease 0s normal none infinite running cloud; }
-    #ipod .cloud:nth-child(1) {
+    #ipod .clouds img:nth-child(1) {
       -webkit-animation-delay: 0s;
               animation-delay: 0s;
       bottom: 50vh; }
-    #ipod .cloud:nth-child(2) {
+    #ipod .clouds img:nth-child(2) {
       -webkit-animation-delay: 3s;
               animation-delay: 3s;
       bottom: 80vh; }
