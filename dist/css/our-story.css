@@ -1,7 +1,7 @@
 #our-story {
   text-align: center;
   background-color: #8080ff;
-  height: calc(7000px); }
+  height: 22000px; }
   #our-story .title {
     bottom: 400px;
     text-align: center;
@@ -18,8 +18,12 @@
     background-repeat: repeat;
     height: 10vw; }
   #our-story .neem, #our-story .marcus {
-    bottom: 10vw; }
+    bottom: 10vw;
+    z-index: 400; }
   #our-story .neem {
+    width: 10%; }
+  #our-story .neem-arm {
+    z-index: 350;
     width: 10%; }
   #our-story .marcus {
     width: 14.5%; }

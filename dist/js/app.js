@@ -4,7 +4,9 @@
         constants: {
             welcome: 0,
             story: 3000,
-            party: 10000
+            neemipod: 6900,
+            markipod: 9100,
+            party: 25000
         },
         smoothScrolling: false
     });
