@@ -203,18 +203,18 @@
     width: 100%;
     z-index: 300; }
 
-#our-story {
+#ipod {
   text-align: center;
   background-color: #8080ff;
-  height: 22000px; }
-  #our-story .title {
+  height: 7001px; }
+  #ipod .title {
     bottom: 400px;
     text-align: center;
     font-size: 24px;
     width: 100%; }
-  #our-story .ipod {
+  #ipod .ipod {
     z-index: 500; }
-  #our-story .floor {
+  #ipod .floor {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -222,25 +222,25 @@
     background: url("../images/mario-brick.png");
     background-repeat: repeat;
     height: 10vw; }
-  #our-story .neem, #our-story .marcus {
+  #ipod .neem, #ipod .marcus {
     bottom: 10vw;
     z-index: 400; }
-  #our-story .neem {
+  #ipod .neem {
     width: 10%; }
-  #our-story .neem-arm {
+  #ipod .neem-arm {
     z-index: 350;
     width: 10%; }
-  #our-story .marcus {
+  #ipod .marcus {
     width: 14.5%; }
-  #our-story .notes {
+  #ipod .notes {
     position: fixed; }
-    #our-story .notes.notes-neem {
+    #ipod .notes.notes-neem {
       left: 31%;
       bottom: 26vw; }
-    #our-story .notes.notes-marcus {
+    #ipod .notes.notes-marcus {
       left: 66.5%;
       bottom: 33vw; }
-    #our-story .notes .note {
+    #ipod .notes .note {
       background-image: url("../images/note.png");
       background-size: cover;
       position: fixed;
@@ -249,18 +249,31 @@
               animation: 2s ease-in 0s normal none infinite running music;
       width: 1vw;
       height: 1.25vw; }
-      #our-story .notes .note:nth-child(1) {
+      #ipod .notes .note:nth-child(1) {
         -webkit-animation-delay: 0s;
                 animation-delay: 0s; }
-      #our-story .notes .note:nth-child(2) {
+      #ipod .notes .note:nth-child(2) {
         -webkit-animation-delay: 1.2s;
                 animation-delay: 1.2s; }
-  #our-story .cloud {
+  #ipod .cloud {
     width: 10vw;
     left: 0;
     position: fixed;
     -webkit-animation: 18s ease 0s normal none infinite running cloud;
             animation: 18s ease 0s normal none infinite running cloud; }
+    #ipod .cloud:nth-child(1) {
+      -webkit-animation-delay: 0s;
+              animation-delay: 0s;
+      bottom: 50vh; }
+    #ipod .cloud:nth-child(2) {
+      -webkit-animation-delay: 3s;
+              animation-delay: 3s;
+      bottom: 80vh; }
+
+#bffs {
+  text-align: center;
+  background-color: #f8f890;
+  height: 10000px; }
 
 #wedding-party {
   text-align: center;

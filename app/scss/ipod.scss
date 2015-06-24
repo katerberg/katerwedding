@@ -1,7 +1,7 @@
-#our-story {
+#ipod {
     text-align: center;
     background-color: rgb(128,128,255);
-    height: 22000px;
+    height: 7001px;
     .title {
         bottom: 400px;
         text-align: center;
@@ -65,5 +65,13 @@
         left: 0;
         position: fixed;
         animation: 18s ease 0s normal none infinite running cloud;
+        &:nth-child(1) {
+            animation-delay: 0s;
+            bottom: 50vh;
+        }
+        &:nth-child(2) {
+            animation-delay: 3s;
+            bottom: 80vh;
+        }
     }
 }

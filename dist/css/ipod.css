@@ -1,7 +1,7 @@
 #ipod {
   text-align: center;
   background-color: #8080ff;
-  height: 22000px; }
+  height: 7001px; }
   #ipod .title {
     bottom: 400px;
     text-align: center;
@@ -56,3 +56,11 @@
     position: fixed;
     -webkit-animation: 18s ease 0s normal none infinite running cloud;
             animation: 18s ease 0s normal none infinite running cloud; }
+    #ipod .cloud:nth-child(1) {
+      -webkit-animation-delay: 0s;
+              animation-delay: 0s;
+      bottom: 50vh; }
+    #ipod .cloud:nth-child(2) {
+      -webkit-animation-delay: 3s;
+              animation-delay: 3s;
+      bottom: 80vh; }

@@ -6,7 +6,8 @@
             story: 3000,
             neemipod: 6900,
             markipod: 9100,
-            party: 25000
+            bffs: 10000,
+            party: 20000
         },
         smoothScrolling: false
     });
