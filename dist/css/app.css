@@ -288,11 +288,17 @@
     background-size: contain;
     height: 10vw; }
   #bffs .state {
-    position: absolute;
-    height: 15vh; }
+    height: 15vh;
+    z-index: 400; }
+  #bffs .state.mo {
+    left: 50%;
+    margin-left: -9.135vh; }
   #bffs .home-states {
     width: 100%; }
+    #bffs .home-states .state {
+      position: absolute; }
   #bffs .person {
+    z-index: 500;
     height: 10vh; }
 
 #wedding-party {

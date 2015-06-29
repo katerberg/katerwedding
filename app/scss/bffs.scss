@@ -19,13 +19,21 @@
     }
 
     .state {
-        position: absolute;
         height: 15vh;
+        z-index: 400;
+    }
+    .state.mo {
+        left: 50%;
+        margin-left: -9.135vh;
     }
     .home-states {
         width: 100%;
+        .state {
+            position: absolute;
+        }
     }
     .person {
+        z-index: 500;
         height: 10vh;
     }
 }
