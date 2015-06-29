@@ -288,8 +288,7 @@
     background-size: contain;
     height: 10vw; }
   #bffs .state {
-    height: 15vh;
-    z-index: 400; }
+    height: 15vh; }
   #bffs .state.mo {
     left: 50%;
     margin-left: -9.135vh; }
