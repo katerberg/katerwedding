@@ -18,8 +18,5 @@
   #bffs .states {
     width: 100%; }
     #bffs .states .state {
-      height: 35vh; }
-  #bffs .mi {
-    left: 10%; }
-  #bffs .mn {
-    right: 10%; }
+      position: absolute;
+      height: 15vh; }

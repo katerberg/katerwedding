@@ -21,13 +21,8 @@
     .states {
         width: 100%;
         .state {
-            height: 35vh;
+            position: absolute;
+            height: 15vh;
         }
-    }
-    .mi {
-        left: 10%;
-    }
-    .mn {
-        right: 10%;
     }
 }
