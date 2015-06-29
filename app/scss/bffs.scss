@@ -18,11 +18,14 @@
         height: 10vw;
     }
 
-    .states {
+    .state {
+        position: absolute;
+        height: 15vh;
+    }
+    .home-states {
         width: 100%;
-        .state {
-            position: absolute;
-            height: 15vh;
-        }
+    }
+    .person {
+        height: 10vh;
     }
 }

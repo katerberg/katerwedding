@@ -15,8 +15,10 @@
     background: url("../images/zelda-beach.png");
     background-size: contain;
     height: 10vw; }
-  #bffs .states {
+  #bffs .state {
+    position: absolute;
+    height: 15vh; }
+  #bffs .home-states {
     width: 100%; }
-    #bffs .states .state {
-      position: absolute;
-      height: 15vh; }
+  #bffs .person {
+    height: 10vh; }
