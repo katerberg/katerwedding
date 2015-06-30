@@ -1,16 +1,27 @@
 (function() {
     'use strict';
+    function buildConstants(relative) {
+        var constants = {},
+            position = 0;
+        Object.keys(relative).forEach(function(key) {
+            constants[key] = position;
+            position += relative[key];
+        });
+        return constants;
+    }
+
+    var relative = {
+        welcome: 3000,
+        story: 3900,
+        neemipod: 2200,
+        markipod: 900,
+        bffs: 7000,
+        anniversary: 7000,
+        stl: 7000,
+        party: 0
+    };
     var s = skrollr.init({
-        constants: {
-            welcome: 0,
-            story: 3000,
-            neemipod: 6900,
-            markipod: 9100,
-            bffs: 10000,
-            anniversary: 16000,
-            stl: 23000,
-            party: 30000
-        },
+        constants: buildConstants(relative),
         smoothScrolling: false
     });
 

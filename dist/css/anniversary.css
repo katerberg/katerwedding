@@ -31,3 +31,6 @@
         left: 5%; }
       #anniversary .players img.p2 {
         right: 5%; }
+  #anniversary .sun {
+    left: 45%;
+    width: 10%; }
