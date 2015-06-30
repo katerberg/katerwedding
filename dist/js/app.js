@@ -7,7 +7,9 @@
             neemipod: 6900,
             markipod: 9100,
             bffs: 10000,
-            party: 20000
+            anniversary: 16000,
+            stl: 23000,
+            party: 30000
         },
         smoothScrolling: false
     });

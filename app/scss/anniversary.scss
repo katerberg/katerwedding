@@ -1,0 +1,28 @@
+#anniversary {
+    text-align: center;
+    background-color: #0000AD;
+    height: 7000px;
+    .title {
+        bottom: 400px;
+        text-align: center;
+        font-size: 24px;
+        width: 100%;
+    }
+    .score {
+        z-index: 350;
+        width: 10%;
+        left: 45%;
+    }
+    .floor {
+        width: 100%;
+        z-index: 301;
+        background: url("../images/gorillas.png");
+        background-size: contain;
+        height: 10vw;
+    }
+    .person {
+        z-index: 500;
+        height: 10vh;
+    }
+}
+

@@ -140,7 +140,7 @@
 
 #menu {
   position: fixed;
-  top: 40px;
+  top: 40%;
   left: 40px;
   z-index: 1500; }
   #menu a {
@@ -273,7 +273,7 @@
 #bffs {
   text-align: center;
   background-color: #f8f890;
-  height: 10000px; }
+  height: 6000px; }
   #bffs .title {
     bottom: 400px;
     text-align: center;
@@ -297,6 +297,29 @@
     #bffs .home-states .state {
       position: absolute; }
   #bffs .person {
+    z-index: 500;
+    height: 10vh; }
+
+#anniversary {
+  text-align: center;
+  background-color: #0000AD;
+  height: 7000px; }
+  #anniversary .title {
+    bottom: 400px;
+    text-align: center;
+    font-size: 24px;
+    width: 100%; }
+  #anniversary .score {
+    z-index: 350;
+    width: 10%;
+    left: 45%; }
+  #anniversary .floor {
+    width: 100%;
+    z-index: 301;
+    background: url("../images/gorillas.png");
+    background-size: contain;
+    height: 10vw; }
+  #anniversary .person {
     z-index: 500;
     height: 10vh; }
 
