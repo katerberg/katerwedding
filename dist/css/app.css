@@ -139,13 +139,12 @@
           background: white; }
 
 #menu {
-  position: fixed;
   top: 40%;
   left: 40px;
   z-index: 1500; }
   #menu a {
+    color: inherit;
     opacity: 0.5;
-    color: black;
     font-size: 14px;
     text-transform: uppercase;
     display: block; }
@@ -303,6 +302,7 @@
 #anniversary {
   text-align: center;
   background-color: #0000AD;
+  color: white;
   height: 7000px; }
   #anniversary .title {
     bottom: 400px;

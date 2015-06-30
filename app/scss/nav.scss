@@ -1,12 +1,11 @@
 #menu {
-    position: fixed;
     top: 40%;
     left: 40px;
     z-index: 1500;
 
     a {
+        color: inherit;
         opacity: 0.5;
-        color: black;
         font-size: 14px;
         text-transform: uppercase;
         display: block;
