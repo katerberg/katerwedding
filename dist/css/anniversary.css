@@ -20,3 +20,13 @@
   #anniversary .person {
     z-index: 500;
     height: 10vh; }
+  #anniversary .players {
+    width: 100%; }
+    #anniversary .players img {
+      z-index: 150;
+      width: 10%;
+      position: absolute; }
+      #anniversary .players img.p1 {
+        left: 5%; }
+      #anniversary .players img.p2 {
+        right: 5%; }

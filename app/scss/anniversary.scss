@@ -24,5 +24,19 @@
         z-index: 500;
         height: 10vh;
     }
+    .players {
+        width: 100%;
+        img {
+            z-index: 150;
+            width: 10%;
+            position: absolute;
+            &.p1 {
+                left: 5%;
+            }
+            &.p2 {
+                right: 5%;
+            }
+        }
+    }
 }
 
