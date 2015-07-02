@@ -317,11 +317,12 @@
     width: 100%;
     z-index: 301;
     background: url("../images/gorillas.png");
+    background-repeat: repeat-x;
     background-size: contain;
-    height: 10vw; }
+    height: 20vw; }
   #anniversary .person {
     z-index: 500;
-    height: 10vh; }
+    width: 5vw; }
   #anniversary .players {
     width: 100%; }
     #anniversary .players img {
@@ -335,6 +336,8 @@
   #anniversary .sun {
     left: 45%;
     width: 10%; }
+  #anniversary .banana {
+    display: none; }
 
 #wedding-party {
   text-align: center;

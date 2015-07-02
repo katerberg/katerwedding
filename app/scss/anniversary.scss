@@ -18,12 +18,13 @@
         width: 100%;
         z-index: 301;
         background: url("../images/gorillas.png");
+        background-repeat: repeat-x;
         background-size: contain;
-        height: 10vw;
+        height: 20vw;
     }
     .person {
         z-index: 500;
-        height: 10vh;
+        width: 5vw;
     }
     .players {
         width: 100%;
@@ -42,6 +43,9 @@
     .sun {
         left: 45%;
         width: 10%;
+    }
+    .banana {
+        display:none;
     }
 }
 
