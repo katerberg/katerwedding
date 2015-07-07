@@ -3,10 +3,14 @@
     background-color: rgb(128,128,255);
     height: 7001px;
     .title {
-        bottom: 400px;
-        text-align: center;
         font-size: 24px;
         width: 100%;
+        z-index: 600;
+    }
+    .copy-text {
+        position: fixed;
+        left: 32.75%;
+        width: 30%;
     }
     .ipod {
         z-index: 500;
