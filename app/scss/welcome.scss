@@ -44,10 +44,14 @@
     .neem, .marcus {
         width: 10%;
     }
-    .floor {
+    .floor, .tree {
         position:fixed;
-        bottom:0;
         width: 100%;
+    }
+    .tree {
+        z-index: 280;
+    }
+    .floor {
         z-index: 300;
     }
 }
