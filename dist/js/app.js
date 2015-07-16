@@ -14,7 +14,7 @@
         welcome: 3000,
         story: 3900,
         neemipod: 2200,
-        markipod: 900,
+        markipod: 1400,
         bffs: 7000,
         anniversary: 7000,
         stl: 7000,
@@ -22,7 +22,18 @@
     };
     var s = skrollr.init({
         constants: buildConstants(relative),
-        smoothScrolling: false
+        smoothScrolling: false,
+        keyframe: function(element, name, direction) {
+            if (element.classList.contains('scratched')) {
+                if (direction === 'up') {
+                    reset(element);
+                } else {
+                    var svg = createSVGEl();
+                    element.appendChild(svg);
+                    draw(element);
+                }
+            }
+        }
     });
 
     skrollr.menu.init(s, {

@@ -4,11 +4,7 @@
   color: white;
   height: 7000px; }
   #anniversary .title {
-    z-index: 500;
-    bottom: 400px;
-    text-align: center;
-    font-size: 24px;
-    width: 100%; }
+    bottom: 400px; }
   #anniversary .score {
     z-index: 350;
     width: 10%;

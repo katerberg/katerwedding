@@ -206,15 +206,15 @@
 #ipod {
   text-align: center;
   background-color: #8080ff;
-  height: 7001px; }
-  #ipod .title {
-    font-size: 24px;
-    width: 100%;
-    z-index: 600; }
+  height: 7501px; }
   #ipod .copy-text {
+    z-index: 600;
     position: fixed;
     left: 32.75%;
     width: 30%; }
+    #ipod .copy-text div {
+      position: relative;
+      display: block; }
   #ipod .ipod {
     z-index: 500; }
   #ipod .floor {
@@ -256,8 +256,11 @@
         -webkit-animation-delay: 0s;
                 animation-delay: 0s; }
       #ipod .notes .note:nth-child(2) {
-        -webkit-animation-delay: 1.2s;
-                animation-delay: 1.2s; }
+        -webkit-animation-delay: 2.2s;
+                animation-delay: 2.2s; }
+  #ipod .writing-neem {
+    color: red;
+    overflow: hidden; }
   #ipod .clouds img {
     width: 10vw;
     left: 0;
@@ -272,16 +275,27 @@
       -webkit-animation-delay: 3s;
               animation-delay: 3s;
       bottom: 80vh; }
+  #ipod svg {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    position: absolute;
+    z-index: 500; }
+    #ipod svg path {
+      fill: none;
+      stroke: red;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-width: 13px; }
 
 #bffs {
   text-align: center;
   background-color: #f8f890;
   height: 7000px; }
   #bffs .title {
-    bottom: 400px;
-    text-align: center;
-    font-size: 24px;
-    width: 100%; }
+    bottom: 400px; }
   #bffs .floor {
     position: fixed;
     bottom: 0;
@@ -309,11 +323,7 @@
   color: white;
   height: 7000px; }
   #anniversary .title {
-    z-index: 500;
-    bottom: 400px;
-    text-align: center;
-    font-size: 24px;
-    width: 100%; }
+    bottom: 400px; }
   #anniversary .score {
     z-index: 350;
     width: 10%;
@@ -362,3 +372,8 @@
 body {
   color: black;
   font-family: 'Press Start 2P', cursive; }
+
+.title {
+  font-size: 24px;
+  width: 100%;
+  z-index: 500; }

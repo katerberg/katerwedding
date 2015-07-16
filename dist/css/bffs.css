@@ -3,10 +3,7 @@
   background-color: #f8f890;
   height: 7000px; }
   #bffs .title {
-    bottom: 400px;
-    text-align: center;
-    font-size: 24px;
-    width: 100%; }
+    bottom: 400px; }
   #bffs .floor {
     position: fixed;
     bottom: 0;
