@@ -297,11 +297,16 @@
   #bffs .title {
     bottom: 400px; }
   #bffs .floor {
-    position: fixed;
     bottom: 0;
     width: 100%;
     z-index: 301;
     background: url("../images/zelda-beach.png");
+    background-size: contain;
+    height: 10vw; }
+  #bffs .trees {
+    width: 100%;
+    z-index: 301;
+    background: url("../images/beach-trees.png");
     background-size: contain;
     height: 10vw; }
   #bffs .state {
