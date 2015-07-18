@@ -207,14 +207,6 @@
   text-align: center;
   background-color: #8080ff;
   height: 7501px; }
-  #ipod .copy-text {
-    z-index: 600;
-    position: fixed;
-    left: 32.75%;
-    width: 30%; }
-    #ipod .copy-text div {
-      position: relative;
-      display: block; }
   #ipod .ipod {
     z-index: 500; }
   #ipod .floor {
@@ -382,3 +374,12 @@ body {
   font-size: 24px;
   width: 100%;
   z-index: 500; }
+
+.copy-text {
+  z-index: 600;
+  position: fixed;
+  left: 32.75%;
+  width: 30%; }
+  .copy-text .title div {
+    position: relative;
+    display: block; }

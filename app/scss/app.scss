@@ -18,3 +18,14 @@ body{
     width: 100%;
     z-index: 500;
 }
+
+.copy-text {
+    z-index: 600;
+    position: fixed;
+    left: 32.75%;
+    width: 30%;
+    .title div {
+        position: relative;
+        display: block;
+    }
+}
