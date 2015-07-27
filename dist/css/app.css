@@ -248,11 +248,8 @@
         -webkit-animation-delay: 0s;
                 animation-delay: 0s; }
       #ipod .notes .note:nth-child(2) {
-        -webkit-animation-delay: 2.2s;
-                animation-delay: 2.2s; }
-  #ipod .writing-neem {
-    color: red;
-    overflow: hidden; }
+        -webkit-animation-delay: 0.8s;
+                animation-delay: 0.8s; }
   #ipod .clouds img {
     width: 10vw;
     left: 0;
@@ -267,25 +264,11 @@
       -webkit-animation-delay: 3s;
               animation-delay: 3s;
       bottom: 80vh; }
-  #ipod svg {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    pointer-events: none;
-    position: absolute;
-    z-index: 500; }
-    #ipod svg path {
-      fill: none;
-      stroke: red;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-      stroke-width: 13px; }
 
 #bffs {
   text-align: center;
   background-color: #f8f890;
-  height: 7000px; }
+  height: 10000px; }
   #bffs .title {
     bottom: 400px; }
   #bffs .floor {
@@ -383,3 +366,22 @@ body {
   .copy-text .title div {
     position: relative;
     display: block; }
+
+.writing-neem {
+  color: red;
+  overflow: hidden; }
+
+.scratched > svg {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  position: absolute;
+  z-index: 500; }
+  .scratched > svg path {
+    fill: none;
+    stroke: red;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 13px; }
