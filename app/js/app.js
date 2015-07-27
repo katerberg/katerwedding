@@ -15,7 +15,7 @@
         story: 3900,
         neemipod: 2200,
         markipod: 1400,
-        bffs: 10000,
+        bffs: 9000,
         anniversary: 7000,
         stl: 7000,
         party: 0
