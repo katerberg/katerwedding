@@ -11,11 +11,18 @@
     left: 45%; }
   #anniversary .floor {
     width: 100%;
-    z-index: 301;
-    background: url("../images/gorillas.png");
     background-repeat: repeat-x;
     background-size: contain;
     height: 20vw; }
+  #anniversary .city {
+    z-index: 301;
+    background-image: url("../images/gorillas.png"); }
+  #anniversary .explosion-mark {
+    z-index: 305;
+    background-image: url("../images/gorillas-explosion0.png"); }
+  #anniversary .explosion-neem {
+    z-index: 305;
+    background-image: url("../images/gorillas-explosion1.png"); }
   #anniversary .person {
     z-index: 500;
     width: 5vw; }
