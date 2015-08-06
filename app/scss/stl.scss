@@ -1,0 +1,23 @@
+#stl {
+    text-align: center;
+    background-color: white;
+    color: black;
+    height: 7000px;
+    .title {
+        bottom: 400px;
+    }
+    .abom {
+        width: 20vw;
+        bottom: 0;
+        left: 40vw;
+    }
+    .skiier {
+        width: 8.5vw;
+        left: 60vw;
+        z-index: 505;
+    }
+    .person {
+        z-index: 500;
+        width: 5vw;
+    }
+}
