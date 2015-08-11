@@ -9,6 +9,14 @@
     width: 10vw;
     bottom: 0vw;
     left: 45vw; }
+  #stl .snow-humps {
+    width: 10vw;
+    right: 85%;
+    bottom: 5vw; }
+  #stl .tree {
+    width: 10vw;
+    left: 65%;
+    bottom: 15vw; }
   #stl .skiier {
     width: 4.25vw;
     left: 55vw;
