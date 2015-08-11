@@ -349,12 +349,12 @@
   #stl .title {
     bottom: 400px; }
   #stl .abom {
-    width: 20vw;
+    width: 10vw;
     bottom: 0vw;
-    left: 40vw; }
+    left: 45vw; }
   #stl .skiier {
-    width: 8.5vw;
-    left: 60vw;
+    width: 4.25vw;
+    left: 55vw;
     z-index: 505; }
   #stl .person {
     z-index: 500;
