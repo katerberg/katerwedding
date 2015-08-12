@@ -355,8 +355,16 @@
   #stl .snow-humps {
     width: 10vw;
     right: 85%; }
+  #stl .stick-tree {
+    width: 4vw; }
   #stl .tree {
-    width: 8vw; }
+    width: 6vw; }
+  #stl .tall-tree {
+    width: 5vw; }
+  #stl .lift {
+    width: 3vw; }
+  #stl .rock {
+    width: 3vw; }
   #stl .skiier {
     width: 4.25vw;
     left: 55vw;
