@@ -22,10 +22,22 @@
     width: 3vw; }
   #stl .rock {
     width: 3vw; }
+  #stl .stump {
+    width: 2.5vw; }
   #stl .skiier {
     width: 4.25vw;
     left: 55vw;
     z-index: 505; }
+  #stl .arch {
+    text-align: center;
+    max-width: 1000px;
+    margin-left: -500px; }
   #stl .person {
     z-index: 500;
     width: 5vw; }
+
+@media (max-width: 1000px) {
+  #stl .arch {
+    margin-left: 0px;
+    left: 0;
+    width: 100%; } }
