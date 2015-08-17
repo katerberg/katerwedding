@@ -374,13 +374,23 @@
   #stl .arch {
     text-align: center;
     max-width: 1000px;
-    margin-left: -500px; }
+    margin-left: -500px;
+    z-index: 401; }
   #stl .person {
     z-index: 500;
     width: 5vw; }
+  #stl .doorway {
+    text-align: center;
+    max-width: 1000px;
+    margin-left: -500px;
+    z-index: 400; }
 
 @media (max-width: 1000px) {
   #stl .arch {
+    margin-left: 0px;
+    left: 0;
+    width: 100%; }
+  #stl .doorway {
     margin-left: 0px;
     left: 0;
     width: 100%; } }
