@@ -40,6 +40,21 @@
     text-align: center;
     max-width: 1000px;
     margin-left: -500px; }
+  #stl .bricks {
+    z-index: 560; }
+    #stl .bricks.side {
+      width: 50%;
+      height: 3000px;
+      background-image: url("../images/bricks.png");
+      background-repeat: repeat;
+      bottom: -60px; }
+      #stl .bricks.side.left {
+        right: calc(50% + 499px);
+        -webkit-transform: scaleX(-1);
+            -ms-transform: scaleX(-1);
+                transform: scaleX(-1); }
+      #stl .bricks.side.right {
+        left: calc(50% + 490px); }
   #stl .groom {
     right: 51%;
     z-index: 500;

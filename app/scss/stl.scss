@@ -53,6 +53,23 @@
         max-width: 1000px;
         margin-left: -500px;
     }
+    .bricks {
+        z-index: 560;
+        &.side {
+            width: 50%;
+            height: 3000px;
+            background-image: url("../images/bricks.png");
+            background-repeat: repeat;
+            bottom: -60px;
+            &.left {
+                right: calc(50% + 499px);
+                transform: scaleX(-1);
+            }
+            &.right {
+                left: calc(50% + 490px);
+            }
+        }
+    }
     .groom {
         right: 51%;
         z-index: 500;
