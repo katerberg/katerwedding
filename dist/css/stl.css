@@ -32,15 +32,22 @@
     text-align: center;
     max-width: 1000px;
     margin-left: -500px;
-    z-index: 401; }
+    z-index: 551; }
   #stl .person {
     z-index: 500;
     width: 5vw; }
   #stl .doorway {
     text-align: center;
     max-width: 1000px;
-    margin-left: -500px;
-    z-index: 400; }
+    margin-left: -500px; }
+  #stl .groom {
+    right: 51%;
+    z-index: 500;
+    width: 5vw; }
+  #stl .bride {
+    left: 51%;
+    z-index: 500;
+    width: 6.33vw; }
 
 @media (max-width: 1000px) {
   #stl .arch {
