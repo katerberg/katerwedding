@@ -1,0 +1,67 @@
+#arch {
+  background-color: #64b0ff;
+  text-align: center;
+  color: black;
+  height: 6501px; }
+  #arch .title {
+    bottom: 400px; }
+  #arch .arch {
+    text-align: center;
+    max-width: 1000px;
+    margin-left: -500px;
+    z-index: 551; }
+  #arch .person {
+    z-index: 500;
+    width: 5vw; }
+  #arch .copy-text.final {
+    bottom: 740px;
+    text-align: center; }
+  #arch .doorway {
+    text-align: center;
+    max-width: 1000px;
+    margin-left: -500px; }
+  #arch .bricks {
+    z-index: 560; }
+    #arch .bricks.top {
+      z-index: 541;
+      background-image: url("../images/bricks.png");
+      background-repeat: repeat;
+      width: 150%;
+      height: 2000px;
+      bottom: 720px;
+      left: 0; }
+    #arch .bricks.side {
+      width: 50%;
+      height: 3000px;
+      background-image: url("../images/bricks.png");
+      background-repeat: repeat;
+      bottom: -60px; }
+      #arch .bricks.side.left {
+        right: calc(50% + 499px);
+        -webkit-transform: scaleX(-1);
+            -ms-transform: scaleX(-1);
+                transform: scaleX(-1); }
+      #arch .bricks.side.right {
+        left: calc(50% + 490px); }
+  #arch .groom {
+    right: 51%;
+    z-index: 500;
+    width: 5vw; }
+  #arch .bride {
+    left: 51%;
+    z-index: 500;
+    width: 6.33vw; }
+
+@media (max-width: 1000px) {
+  #arch .copy-text.final {
+    bottom: auto;
+    top: 10vh;
+    text-align: center; }
+  #arch .arch {
+    margin-left: 0px;
+    left: 0;
+    width: 100%; }
+  #arch .doorway {
+    margin-left: 0px;
+    left: 0;
+    width: 100%; } }

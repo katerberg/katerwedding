@@ -345,7 +345,7 @@
   text-align: center;
   background-color: white;
   color: black;
-  height: 7000px; }
+  height: 6301px; }
   #stl .title {
     bottom: 400px; }
   #stl .abom {
@@ -371,48 +371,77 @@
     width: 4.25vw;
     left: 55vw;
     z-index: 505; }
-  #stl .arch {
+
+@media (max-width: 1000px) {
+  .copy-text.final {
+    bottom: auto;
+    top: 10vh;
+    text-align: center; } }
+
+#arch {
+  background-color: #64b0ff;
+  text-align: center;
+  color: black;
+  height: 6501px; }
+  #arch .title {
+    bottom: 400px; }
+  #arch .arch {
     text-align: center;
     max-width: 1000px;
     margin-left: -500px;
     z-index: 551; }
-  #stl .person {
+  #arch .person {
     z-index: 500;
     width: 5vw; }
-  #stl .doorway {
+  #arch .copy-text.final {
+    bottom: 740px;
+    text-align: center; }
+  #arch .doorway {
     text-align: center;
     max-width: 1000px;
     margin-left: -500px; }
-  #stl .bricks {
+  #arch .bricks {
     z-index: 560; }
-    #stl .bricks.side {
+    #arch .bricks.top {
+      z-index: 541;
+      background-image: url("../images/bricks.png");
+      background-repeat: repeat;
+      width: 150%;
+      height: 2000px;
+      bottom: 720px;
+      left: 0; }
+    #arch .bricks.side {
       width: 50%;
       height: 3000px;
       background-image: url("../images/bricks.png");
       background-repeat: repeat;
       bottom: -60px; }
-      #stl .bricks.side.left {
+      #arch .bricks.side.left {
         right: calc(50% + 499px);
         -webkit-transform: scaleX(-1);
             -ms-transform: scaleX(-1);
                 transform: scaleX(-1); }
-      #stl .bricks.side.right {
+      #arch .bricks.side.right {
         left: calc(50% + 490px); }
-  #stl .groom {
+  #arch .groom {
     right: 51%;
     z-index: 500;
     width: 5vw; }
-  #stl .bride {
+  #arch .bride {
     left: 51%;
     z-index: 500;
     width: 6.33vw; }
 
 @media (max-width: 1000px) {
-  #stl .arch {
+  #arch .copy-text.final {
+    bottom: auto;
+    top: 10vh;
+    text-align: center; }
+  #arch .arch {
     margin-left: 0px;
     left: 0;
     width: 100%; }
-  #stl .doorway {
+  #arch .doorway {
     margin-left: 0px;
     left: 0;
     width: 100%; } }

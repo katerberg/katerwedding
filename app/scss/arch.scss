@@ -1,0 +1,84 @@
+#arch {
+    background-color: rgb(100,176,255);
+    text-align: center;
+    color: black;
+    height: 6501px;
+    .title {
+        bottom: 400px;
+    }
+    .arch {
+        text-align: center;
+        max-width: 1000px;
+        margin-left: -500px;
+        z-index: 551;
+    }
+    .person {
+        z-index: 500;
+        width: 5vw;
+    }
+    .copy-text.final {
+        bottom: 740px;
+        text-align: center;
+    }
+    .doorway {
+        text-align: center;
+        max-width: 1000px;
+        margin-left: -500px;
+    }
+    .bricks {
+        z-index: 560;
+        &.top {
+            z-index: 541;
+            background-image: url("../images/bricks.png");
+            background-repeat: repeat;
+            width: 150%;
+            height: 2000px;
+            bottom: 720px;
+            left: 0;
+        }
+        &.side {
+            width: 50%;
+            height: 3000px;
+            background-image: url("../images/bricks.png");
+            background-repeat: repeat;
+            bottom: -60px;
+            &.left {
+                right: calc(50% + 499px);
+                transform: scaleX(-1);
+            }
+            &.right {
+                left: calc(50% + 490px);
+            }
+        }
+    }
+    .groom {
+        right: 51%;
+        z-index: 500;
+        width: 5vw;
+    }
+    .bride {
+        left: 51%;
+        z-index: 500;
+        width: 6.33vw;
+    }
+}
+
+@media (max-width: 1000px) {
+    #arch {
+        .copy-text.final {
+            bottom: auto;
+            top: 10vh;
+            text-align: center;
+        }
+        .arch {
+            margin-left: 0px;
+            left: 0;
+            width: 100%;
+        }
+        .doorway {
+            margin-left: 0px;
+            left: 0;
+            width: 100%;
+        }
+    }
+}

@@ -17,7 +17,8 @@
         markipod: 1400,
         bffs: 9000,
         anniversary: 6450,
-        stl: 7000,
+        stl: 6300,
+        arch: 4000,
         party: 0
     };
     var s = skrollr.init({
