@@ -4,6 +4,7 @@
     color: black;
     height: 6501px;
     .title {
+        color: rgb(105, 100, 103);
         bottom: 400px;
     }
     .arch {
@@ -17,7 +18,7 @@
         width: 5vw;
     }
     .copy-text.final {
-        bottom: 740px;
+        bottom: 18vw;
         text-align: center;
     }
     .doorway {
@@ -65,11 +66,6 @@
 
 @media (max-width: 1000px) {
     #arch {
-        .copy-text.final {
-            bottom: auto;
-            top: 10vh;
-            text-align: center;
-        }
         .arch {
             margin-left: 0px;
             left: 0;

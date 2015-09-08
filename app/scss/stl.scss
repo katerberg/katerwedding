@@ -40,9 +40,11 @@
     }
 }
 @media (max-width: 1000px) {
-    .copy-text.final {
-        bottom: auto;
-        top: 10vh;
-        text-align: center;
+    #stl {
+        .copy-text.final {
+            bottom: auto;
+            top: 10vh;
+            text-align: center;
+        }
     }
 }
