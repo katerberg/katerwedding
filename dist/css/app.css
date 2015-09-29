@@ -368,7 +368,8 @@
   #stl .stump {
     width: 2.5vw; }
   #stl .tardis {
-    width: 5vw; }
+    width: 5vw;
+    z-index: 600; }
   #stl .skiier {
     width: 4.25vw;
     left: 55vw;
