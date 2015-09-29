@@ -4,6 +4,7 @@
 var input = '';
 var expected = 'wedding';
 function handleEntry(ch) {
+    console.log(ch);
     if (ch == expected[input.length]) {
         $('#pw' + input.length).text(ch);
         input += ch;
@@ -18,7 +19,11 @@ $('td').click(function() {
 });
 
 $(document).keypress(function(e) {
-    handleEntry(e.key);
+    if (e.key) {
+        handleEntry(e.key);
+    } else {
+        handleEntry(String.fromCharCode(e.keyCode));
+    }
 });
 
 })();
