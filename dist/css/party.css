@@ -1,14 +1,14 @@
-#wedding-party {
+#end {
   text-align: center;
   background-color: #ccc;
   height: calc(0px); }
-  #wedding-party .neem, #wedding-party .marcus {
+  #end .neem, #end .marcus {
     bottom: 10vw;
     z-index: 400; }
-  #wedding-party .neem {
+  #end .neem {
     width: 10%; }
-  #wedding-party .neem-arm {
+  #end .neem-arm {
     z-index: 350;
     width: 10%; }
-  #wedding-party .marcus {
+  #end .marcus {
     width: 14.5%; }

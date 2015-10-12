@@ -37,9 +37,5 @@
         }
     });
 
-    skrollr.menu.init(s, {
-        duration: function(currentTop, targetTop) {
-            return Math.abs(5.0 * (currentTop - targetTop));
-        }
-    });
+    skrollr.menu.init(s);
 })();
