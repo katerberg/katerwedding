@@ -11,7 +11,7 @@
     }
 
     var relative = {
-        welcome: 3000,
+        welcome: 6000,
         story: 3900,
         neemipod: 2200,
         markipod: 1400,
@@ -39,7 +39,7 @@
 
     skrollr.menu.init(s, {
         duration: function(currentTop, targetTop) {
-            return Math.abs(0.8 * (currentTop - targetTop));
+            return Math.abs(5.0 * (currentTop - targetTop));
         }
     });
 })();
