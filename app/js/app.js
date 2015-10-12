@@ -15,7 +15,7 @@
         story: 3900,
         neemipod: 2200,
         markipod: 1400,
-        bffs: 9000,
+        bffs: 8100,
         anniversary: 6450,
         stl: 6300,
         arch: 4000,
