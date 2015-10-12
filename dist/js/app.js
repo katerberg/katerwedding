@@ -16,7 +16,7 @@
         neemipod: 2200,
         markipod: 1400,
         bffs: 8100,
-        anniversary: 6450,
+        anniversary: 5950,
         stl: 6300,
         arch: 4000,
         party: 0
