@@ -172,9 +172,26 @@
     #welcome .scroll-down label {
       bottom: -65px;
       height: 47px;
-      padding-top: 26px;
-      -webkit-animation: blink 1s steps(5, start) infinite;
-              animation: blink 1s steps(5, start) infinite; }
+      padding-top: 26px; }
+      #welcome .scroll-down label.blinking {
+        -webkit-animation: blink 1s steps(5, start) infinite;
+                animation: blink 1s steps(5, start) infinite; }
+      #welcome .scroll-down label a {
+        color: inherit; }
+        #welcome .scroll-down label a:hover {
+          text-decoration: none;
+          outline: none; }
+      #welcome .scroll-down label.autoplay {
+        z-index: 500;
+        cursor: pointer;
+        top: -60px;
+        position: relative;
+        color: white;
+        width: 145px;
+        margin-left: auto;
+        margin-right: auto; }
+        #welcome .scroll-down label.autoplay:hover {
+          opacity: 0.8; }
     #welcome .scroll-down i {
       padding-top: 250px; }
     #welcome .scroll-down i, #welcome .scroll-down label {
@@ -183,6 +200,11 @@
       text-transform: uppercase;
       vertical-align: bottom;
       white-space: nowrap; }
+    #welcome .scroll-down img {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      height: 52px; }
   #welcome .date {
     width: 100%;
     text-align: center; }
