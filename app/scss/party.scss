@@ -1,19 +1,91 @@
-#end {
-    text-align: center;
-    background-color: #ccc;
-    height: calc(0px);
-    .neem, .marcus {
-        bottom: 10vw;
-        z-index: 400;
-    }
-    .neem {
-        width: 10%;
-    }
-    .neem-arm {
-        z-index: 350;
-        width: 10%;
-    }
-    .marcus {
-        width: 14.5%;
-    }
+* {
+    padding:0;
+    margin:0;
+}
+
+html, body {
+    height:100%;
+}
+
+.skrollr-desktop body {
+    height:100% !important;
+}
+
+body {
+    font-family:sans-serif;
+}
+
+p {
+    margin:1em 0;
+}
+
+.parallax-image-wrapper {
+    position:fixed;
+    left:0;
+    width:100%;
+    overflow:hidden;
+}
+
+.parallax-image-wrapper-50 {
+    height:50%;
+    top:-50%;
+}
+
+.parallax-image {
+    display:none;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
+.parallax-image-50 {
+    height:200%;
+    top:-50%;
+    width:50%;
+}
+
+.parallax-image.skrollable-between {
+    display:inline-block;
+}
+
+.no-skrollr .parallax-image-wrapper {
+    display:none !important;
+}
+
+#skrollr-body {
+    height:100%;
+    overflow:visible;
+    position:relative;
+}
+
+.gap {
+    background:transparent center no-repeat;
+    background-size:cover;
+}
+
+.skrollr .gap {
+    background:transparent !important;
+}
+
+.gap-50 {
+    height:50%;
+    width:50%;
+}
+
+.header, .content {
+    background:#fff;
+    padding:1em;
+    box-sizing:border-box;
+}
+
+.content-full {
+    height:100%;
+}
+
+#done {
+    height:100%;
 }

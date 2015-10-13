@@ -60,7 +60,7 @@ gulp.task('html', function() {
 
 //Move images
 gulp.task('images', function() {
-    gulp.src(basedir + '/images/*')
+    gulp.src(basedir + '/images/**')
         .pipe(gulp.dest('dist/images'));
 });
 
