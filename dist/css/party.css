@@ -5,6 +5,13 @@
 html, body {
   height: 100%; }
 
+header {
+  position: fixed;
+  z-index: 50;
+  background-color: white;
+  width: 100%;
+  top: 0; }
+
 .skrollr-desktop body {
   height: 100% !important; }
 
@@ -18,29 +25,24 @@ p {
   position: fixed;
   left: 0;
   width: 100%;
-  overflow: hidden; }
-
-.parallax-image-wrapper-50 {
+  overflow: hidden;
   height: 50%;
   top: -50%; }
-
-.parallax-image {
-  display: none;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
-
-.parallax-image-50 {
-  height: 200%;
-  top: -50%;
-  width: 50%; }
-
-.parallax-image.skrollable-between {
-  display: inline-block; }
+  .parallax-image-wrapper.right > div {
+    left: 50%; }
+  .parallax-image-wrapper > div {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200%;
+    top: -50%;
+    width: 50%; }
+    .parallax-image-wrapper > div.skrollable-between {
+      display: inline-block; }
 
 .no-skrollr .parallax-image-wrapper {
   display: none !important; }
@@ -52,22 +54,27 @@ p {
 
 .gap {
   background: transparent center no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  height: 50%;
+  width: 50%; }
+  .gap.right {
+    margin-left: 50%; }
 
 .skrollr .gap {
   background: transparent !important; }
 
-.gap-50 {
-  height: 50%;
-  width: 50%; }
-
-.header, .content {
+.content {
   background: #fff;
   padding: 1em;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-size: 24px;
+  margin-top: 48px; }
+  .content.right {
+    margin-left: 50%; }
 
 .content-full {
   height: 100%; }
 
 #done {
-  height: 100%; }
+  margin-top: 50%;
+  text-align: center; }
