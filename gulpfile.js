@@ -33,6 +33,7 @@ gulp.task('sass', function() {
 // Move our Dependent CSS
 gulp.task('dependentCss', function() {
     return gulp.src([basedir + 'scss/bootstrap.min.css',
+        'bower_components/responsive-nav/*.css',
         'bower_components/font-*/**'])
         .pipe(gulp.dest('dist/css'));
 });

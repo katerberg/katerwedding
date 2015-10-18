@@ -11,13 +11,15 @@
         <link rel="stylesheet" href="css/party.css">
         <link href="http://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" type="text/css">
         <script src="js/skrollr/dist/skrollr.min.js"></script>
+        <script src="js/responsive-nav/responsive-nav.min.js"></script>
+        <link rel="stylesheet" href="css/responsive-nav.css">
     </head>
     <body id="wedding-party">
         <header>
             <h1>Neem and Marcus</h1>
             <ul class="menu">
-                <li>Story</li>
-                <li class="active">Party</li>
+                <li><a href="/story.html" data-scroll>Story</a></li>
+                <li class="active"><a href="#" data-scroll>Party</a></li>
             </ul>
         </header>
 
@@ -141,6 +143,9 @@
                 smoothScrolling: false,
                 mobileDeceleration: 0.004
             });
+        </script>
+        <script>
+            var nav = responsiveNav(".menu");
         </script>
     </body>
 </html>

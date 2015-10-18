@@ -13,15 +13,30 @@ header {
         padding-left: 16px;
 
     }
+
+    .nav-toggle {
+        float: right;
+        margin-top: 20px;
+    }
+
     .menu {
         display: inline-block;
         margin-top: 20px;
         float: right;
         text-align: right;
         > li {
+            width: auto;
             list-style: none;
             padding-right: 16px;
             display: inline-block;
+        }
+    }
+}
+
+@media screen and (max-width: 40em) {
+    header {
+        h1 {
+            font-size: 16px;
         }
     }
 }
