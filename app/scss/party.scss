@@ -93,3 +93,21 @@ p {
     margin-top:50%;
     text-align:center;
 }
+
+@media screen and (max-width: 40em) {
+    .gap {
+        width: 100%;
+
+        &.right {
+            margin-left: 0;
+        }
+    }
+    .parallax-image-wrapper {
+        > div {
+            width: 100%;
+        }
+        &.right > div {
+            left: 0;
+        }
+    }
+}
