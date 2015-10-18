@@ -16,7 +16,9 @@ header {
 
     .nav-toggle {
         float: right;
-        margin-top: 20px;
+        margin-top: 8px;
+        margin-right: 16px;
+        font-size: 24px;
     }
 
     .menu {
@@ -37,6 +39,16 @@ header {
     header {
         h1 {
             font-size: 16px;
+        }
+        .menu {
+            width: 100%;
+            > li {
+                margin-right: 0;
+                display: block;
+                float: left;
+                width: 100%;
+                text-align: center;
+            }
         }
     }
 }
