@@ -5,6 +5,13 @@ header {
   width: 100%;
   top: 0;
   font-family: 'Press Start 2P', cursive; }
+  header a {
+    color: black; }
+    header a:hover {
+      color: black; }
+    header a:focus {
+      outline: none;
+      color: black; }
   header h1 {
     display: inline-block;
     color: black;

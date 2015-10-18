@@ -6,6 +6,17 @@ header {
     top:0;
     font-family: 'Press Start 2P', cursive;
 
+    a {
+        color: black;
+        &:hover {
+            color: black;
+        }
+        &:focus {
+            outline: none;
+            color: black;
+        }
+    }
+
     h1 {
         display: inline-block;
         color: black;
