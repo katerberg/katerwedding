@@ -1,0 +1,27 @@
+header {
+    position:fixed;
+    z-index:50;
+    background-color:white;
+    width:100%;
+    top:0;
+    font-family: 'Press Start 2P', cursive;
+
+    h1 {
+        display: inline-block;
+        color: black;
+        font-size: 24px;
+        padding-left: 16px;
+
+    }
+    .menu {
+        display: inline-block;
+        margin-top: 20px;
+        float: right;
+        text-align: right;
+        > li {
+            list-style: none;
+            padding-right: 16px;
+            display: inline-block;
+        }
+    }
+}
