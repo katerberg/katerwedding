@@ -10,12 +10,6 @@ html, body {
 .skrollr-desktop body {
   height: 100% !important; }
 
-body {
-  font-family: sans-serif; }
-
-p {
-  margin: 1em 0; }
-
 .parallax-image-wrapper {
   position: fixed;
   left: 0;
@@ -83,4 +77,6 @@ p {
   .parallax-image-wrapper > div {
     width: 100%; }
   .parallax-image-wrapper.right > div {
-    left: 0; } }
+    left: 0; }
+  .hide-on-mobile {
+    display: none !important; } }

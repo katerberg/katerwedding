@@ -13,14 +13,6 @@ html, body {
     height:100% !important;
 }
 
-body {
-    font-family:sans-serif;
-}
-
-p {
-    margin:1em 0;
-}
-
 .parallax-image-wrapper {
     position:fixed;
     left:0;
@@ -113,5 +105,9 @@ p {
         &.right > div {
             left: 0;
         }
+    }
+
+    .hide-on-mobile {
+        display:none !important;
     }
 }
