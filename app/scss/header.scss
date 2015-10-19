@@ -20,6 +20,20 @@ header {
 
     }
 
+    a {
+        text-decoration: none;
+        background-color: transparent;
+        color: white;
+        &:hover {
+            color: white;
+            opacity: 0.7;
+        }
+        &:focus {
+            outline: none;
+            color: white;
+        }
+    }
+
     .nav-toggle {
         float: right;
         margin-top: 8px;
@@ -40,19 +54,6 @@ header {
             display: inline-block;
             &.active a {
                 color: rgba(120, 0, 0, 0.7);
-            }
-            a {
-                text-decoration: none;
-                background-color: transparent;
-                color: white;
-                &:hover {
-                    color: white;
-                    opacity: 0.7;
-                }
-                &:focus {
-                    outline: none;
-                    color: white;
-                }
             }
         }
     }

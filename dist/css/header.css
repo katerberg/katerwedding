@@ -15,6 +15,16 @@ header {
     color: white;
     font-size: 24px;
     padding-left: 16px; }
+  header a {
+    text-decoration: none;
+    background-color: transparent;
+    color: white; }
+    header a:hover {
+      color: white;
+      opacity: 0.7; }
+    header a:focus {
+      outline: none;
+      color: white; }
   header .nav-toggle {
     float: right;
     margin-top: 8px;
@@ -33,16 +43,6 @@ header {
       display: inline-block; }
       header .menu > li.active a {
         color: rgba(120, 0, 0, 0.7); }
-      header .menu > li a {
-        text-decoration: none;
-        background-color: transparent;
-        color: white; }
-        header .menu > li a:hover {
-          color: white;
-          opacity: 0.7; }
-        header .menu > li a:focus {
-          outline: none;
-          color: white; }
 
 @media screen and (max-width: 40em) {
   header h1 {
