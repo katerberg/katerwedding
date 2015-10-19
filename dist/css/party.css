@@ -41,43 +41,45 @@ html, body {
   overflow: visible;
   position: relative; }
 
-.gap {
-  background: transparent center no-repeat;
-  background-size: cover;
+.content {
   height: 50%;
   width: 50%; }
-  .gap.right {
+  .content.right {
     margin-left: 50%; }
-  .gap.mobile {
+  .content.mobile {
     display: none; }
 
-.skrollr .gap {
-  background: transparent !important; }
-
 .photo {
-  height: 1px;
+  height: 0px;
   box-sizing: border-box;
   font-size: 24px; }
 
 .photo-full {
   height: 100%; }
 
+.container {
+  height: calc(100% - 60px);
+  background-color: rgba(153, 0, 0, 0.5);
+  padding: 50px 10px 10px; }
+  .container .name {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+    padding-bottom: 4px; }
+
 #done {
   margin-top: 30%;
   text-align: center; }
 
 @media screen and (max-width: 40em) {
-  .mobile-gap.test {
-    height: 50%;
-    width: 100%; }
-  .gap {
+  .content {
     height: 100%;
     width: 100%; }
-    .gap.right {
+    .content.right {
       margin-left: 0; }
   .container {
     position: relative;
-    top: 80%; }
+    top: 80%;
+    height: auto; }
   .parallax-image-wrapper > div {
     width: 100%; }
   .parallax-image-wrapper.right > div {
