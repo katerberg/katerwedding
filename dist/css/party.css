@@ -68,7 +68,8 @@ html, body {
 
 #done {
   margin-top: 30%;
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 8px; }
 
 @media screen and (max-width: 40em) {
   .content {
