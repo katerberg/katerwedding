@@ -6,18 +6,6 @@ header {
     top:0;
     font-family: 'Press Start 2P', cursive;
 
-    a {
-        text-decoration: none;
-        background-color: transparent;
-        color: white;
-        &:hover {
-            color: white;
-        }
-        &:focus {
-            outline: none;
-            color: white;
-        }
-    }
 
     h1 {
         font-family: inherit;
@@ -50,6 +38,22 @@ header {
             list-style: none;
             padding-right: 16px;
             display: inline-block;
+            &.active a {
+                color: rgba(120, 0, 0, 0.7);
+            }
+            a {
+                text-decoration: none;
+                background-color: transparent;
+                color: white;
+                &:hover {
+                    color: white;
+                    opacity: 0.7;
+                }
+                &:focus {
+                    outline: none;
+                    color: white;
+                }
+            }
         }
     }
 }
