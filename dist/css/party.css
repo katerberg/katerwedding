@@ -77,6 +77,8 @@ p {
     width: 100%; }
     .gap.right {
       margin-left: 0; }
+  .content.right {
+    margin-left: 0; }
   .parallax-image-wrapper > div {
     width: 100%; }
   .parallax-image-wrapper.right > div {
