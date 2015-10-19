@@ -1,25 +1,25 @@
 header {
     position:fixed;
     z-index:50;
-    background-color:white;
+    background-color:#691BB8;
     width:100%;
     top:0;
     font-family: 'Press Start 2P', cursive;
 
     a {
-        color: black;
+        color: white;
         &:hover {
-            color: black;
+            color: white;
         }
         &:focus {
             outline: none;
-            color: black;
+            color: white;
         }
     }
 
     h1 {
         display: inline-block;
-        color: black;
+        color: white;
         font-size: 24px;
         padding-left: 16px;
 
@@ -53,12 +53,23 @@ header {
         }
         .menu {
             width: 100%;
+
+            a {
+                width: 100%;
+                display: block;
+            }
+
             > li {
-                margin-right: 0;
+                background-color: #AA40FF;
                 display: block;
                 float: left;
                 width: 100%;
                 text-align: center;
+                margin-bottom: 4px;
+                padding: 4px 0px 4px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
             }
         }
     }
