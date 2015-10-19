@@ -48,19 +48,18 @@ html, body {
   width: 50%; }
   .gap.right {
     margin-left: 50%; }
+  .gap.mobile {
+    display: none; }
 
 .skrollr .gap {
   background: transparent !important; }
 
-.content {
-  padding: 1em;
+.photo {
+  height: 1px;
   box-sizing: border-box;
-  font-size: 24px;
-  margin-top: 48px; }
-  .content.right {
-    margin-left: 50%; }
+  font-size: 24px; }
 
-.content-full {
+.photo-full {
   height: 100%; }
 
 #done {
@@ -68,12 +67,17 @@ html, body {
   text-align: center; }
 
 @media screen and (max-width: 40em) {
+  .mobile-gap.test {
+    height: 50%;
+    width: 100%; }
   .gap {
+    height: 100%;
     width: 100%; }
     .gap.right {
       margin-left: 0; }
-  .content.right {
-    margin-left: 0; }
+  .container {
+    position: relative;
+    top: 80%; }
   .parallax-image-wrapper > div {
     width: 100%; }
   .parallax-image-wrapper.right > div {

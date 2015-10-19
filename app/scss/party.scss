@@ -60,6 +60,9 @@ html, body {
     &.right {
         margin-left: 50%;
     }
+    &.mobile {
+        display: none;
+    }
 }
 
 .skrollr .gap {
@@ -67,18 +70,14 @@ html, body {
 }
 
 
-.content {
-    padding:1em;
+.photo {
+    height: 1px;
     box-sizing:border-box;
     font-size:24px;
-    margin-top:48px;
-    &.right {
-        margin-left: 50%;
-    }
 }
 
 
-.content-full {
+.photo-full {
     height:100%;
 }
 
@@ -88,15 +87,20 @@ html, body {
 }
 
 @media screen and (max-width: 40em) {
-    .gap {
+    .mobile-gap.test {
+        height: 50%;
         width: 100%;
-
+    }
+    .gap {
+        height: 100%;
+        width: 100%;
         &.right {
             margin-left: 0;
         }
     }
-    .content.right {
-        margin-left: 0;
+    .container {
+        position: relative;
+        top: 80%;
     }
     .parallax-image-wrapper {
         > div {

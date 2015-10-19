@@ -6,6 +6,8 @@ header {
   top: 0;
   font-family: 'Press Start 2P', cursive; }
   header a {
+    text-decoration: none;
+    background-color: transparent;
     color: white; }
     header a:hover {
       color: white; }
@@ -13,6 +15,11 @@ header {
       outline: none;
       color: white; }
   header h1 {
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    margin-top: 20px;
     display: inline-block;
     color: white;
     font-size: 24px;
@@ -21,6 +28,7 @@ header {
     float: right;
     margin-top: 8px;
     margin-right: 16px;
+    margin-bottom: 10px;
     font-size: 24px; }
   header .menu {
     display: inline-block;
