@@ -59,7 +59,7 @@ html, body {
 
 .container {
   height: calc(100% - 60px);
-  background-color: rgba(153, 0, 0, 0.5);
+  background-color: rgba(120, 0, 0, 0.7);
   padding: 50px 10px 10px; }
   .container .name {
     font-family: 'Press Start 2P', cursive;
