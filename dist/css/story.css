@@ -456,3 +456,14 @@ body {
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-width: 13px; }
+
+#audio {
+  position: fixed;
+  top: 1vh;
+  right: 1vw;
+  opacity: 0.7;
+  cursor: pointer;
+  border-radius: 6px; }
+  #audio:hover {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.7); }
