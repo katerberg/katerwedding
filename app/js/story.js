@@ -38,4 +38,19 @@
     });
 
     skrollr.menu.init(s);
+
+    var ambient,
+        AMBIENT_VOLUME = 0.6;
+
+    function init() {
+        ambient = new Howl({
+            urls: ['audio/tetris.ogg', 'audio/tetris.mp3'],
+            buffer: true,
+            volume: AMBIENT_VOLUME,
+            autoplay: true,
+            loop: true
+        });
+    }
+
+    init();
 })();

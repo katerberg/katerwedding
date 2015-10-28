@@ -44,6 +44,12 @@ gulp.task('scripts', function() {
         .pipe(gulp.dest('dist/js'));
 });
 
+// Move audio file
+gulp.task('audio', function() {
+    return gulp.src([basedir + 'audio/**'])
+        .pipe(gulp.dest('dist/audio'));
+});
+
 // Deploy dependency JS
 gulp.task('bower', function() {
     return gulp.src(['bower_components/**/*.js'])
@@ -70,11 +76,12 @@ gulp.task('watch', function() {
     gulp.watch(basedir + 'js/**/*.js', ['lint', 'scripts']);
     gulp.watch(basedir + 'scss/**/*.scss', ['sass']);
     gulp.watch(basedir + '**/*.html', ['html']);
-    gulp.watch(basedir + 'images/*', ['images']);
+    gulp.watch(basedir + 'images/**', ['images']);
+    gulp.watch(basedir + 'audio/**', ['audio']);
 });
 
 // Build task
-gulp.task('build', ['lint', 'sass', 'dependentCss', 'bower', 'scripts', 'html', 'images']);
+gulp.task('build', ['lint', 'sass', 'dependentCss', 'bower', 'scripts', 'html', 'images', 'audio']);
 
 // Default Task
 gulp.task('default', ['build', 'watch']);
