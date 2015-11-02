@@ -365,51 +365,37 @@
     bottom: 400px; }
   #arch .arch {
     text-align: center;
-    max-width: 1000px;
+    max-width: 990px;
     margin-left: -500px;
-    z-index: 551; }
-  #arch .person {
-    z-index: 500;
-    width: 5vw; }
+    z-index: 651; }
   #arch .copy-text.final {
     bottom: 18vw;
     text-align: center; }
   #arch .doorway {
     text-align: center;
-    max-width: 1000px;
+    max-width: 990px;
     margin-left: -500px; }
+    #arch .doorway.wood {
+      z-index: 650; }
+    #arch .doorway.dark {
+      z-index: 550; }
   #arch .bricks {
-    z-index: 560; }
-    #arch .bricks.top {
-      z-index: 541;
-      background-image: url("../images/bricks.png");
-      background-repeat: repeat;
-      width: 150%;
-      height: 2000px;
-      bottom: 720px;
-      left: 0; }
-    #arch .bricks.side {
-      width: 50%;
-      height: 3000px;
-      background-image: url("../images/bricks.png");
-      background-repeat: repeat; }
-      #arch .bricks.side.left {
-        right: calc(50% + 499px);
-        -webkit-transform: scaleX(-1);
-            -ms-transform: scaleX(-1);
-                transform: scaleX(-1); }
-      #arch .bricks.side.right {
-        left: calc(50% + 490px); }
+    z-index: 400;
+    background-image: url("../images/bricks.png");
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    left: 0; }
+  #arch .person {
+    z-index: 600; }
   #arch .groom {
     right: 51%;
-    z-index: 500;
     width: 5vw; }
   #arch .bride {
     left: 51%;
-    z-index: 500;
     width: 6.33vw; }
 
-@media (max-width: 1000px) {
+@media (max-width: 990px) {
   #arch .arch {
     margin-left: 0px;
     left: 0;
