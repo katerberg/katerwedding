@@ -63,6 +63,11 @@ html, body {
   background-color: rgba(120, 0, 0, 0.7);
   padding: 50px 10px 10px;
   font-size: 24px; }
+  .container a {
+    font-weight: 600;
+    color: white; }
+    .container a:focus {
+      color: white; }
   .container .title {
     font-family: 'Press Start 2P', cursive;
     font-size: 18px;
