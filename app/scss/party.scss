@@ -7,6 +7,7 @@ html, body {
     height:100%;
     background-color: #57169A;
     color: white;
+    font-family: sans-serif;
 }
 
 .skrollr-desktop body {
@@ -64,9 +65,9 @@ html, body {
 }
 
 .photo {
+    text-align: center;
     height: 0px;
     box-sizing:border-box;
-    font-size:24px;
 }
 
 
@@ -78,10 +79,20 @@ html, body {
     height: calc(100% - 60px);
     background-color: rgba(120, 0, 0, 0.7);
     padding: 50px 10px 10px;
+    font-size: 24px;
     .name {
         font-family: 'Press Start 2P', cursive;
-        font-size: 14px;
+        font-size: 18px;
         padding-bottom: 4px;
+    }
+    .role {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 16px;
+        padding-bottom: 4px;
+    }
+
+    .description {
+        margin-top: 8px;
     }
 }
 
@@ -91,7 +102,21 @@ html, body {
     padding-bottom: 8px;
 }
 
-@media screen and (max-width: 40em) {
+@media screen and (max-width: 1200px) {
+    .container {
+        font-size: 16px;
+        .name {
+            font-size: 14px;
+            padding-bottom: 4px;
+        }
+        .role {
+            font-size: 12px;
+            padding-bottom: 4px;
+        }
+    }
+}
+
+@media screen and (max-width: 630px) {
     .content {
         height: 100%;
         width: 100%;

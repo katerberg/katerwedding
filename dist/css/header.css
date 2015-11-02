@@ -42,7 +42,7 @@ header {
       padding-right: 16px;
       display: inline-block; }
       header .menu > li.active a {
-        color: rgba(120, 0, 0, 0.7); }
+        color: rgba(255, 255, 255, 0.7); }
 
 @media screen and (max-width: 40em) {
   header h1 {
