@@ -80,12 +80,12 @@ html, body {
     background-color: rgba(120, 0, 0, 0.7);
     padding: 50px 10px 10px;
     font-size: 24px;
-    .name {
+    .title {
         font-family: 'Press Start 2P', cursive;
         font-size: 18px;
         padding-bottom: 4px;
     }
-    .role {
+    .sub-title {
         font-family: 'Press Start 2P', cursive;
         font-size: 16px;
         padding-bottom: 4px;
@@ -111,11 +111,11 @@ html, body {
 @media screen and (max-width: 1200px) {
     .container {
         font-size: 16px;
-        .name {
+        .title {
             font-size: 14px;
             padding-bottom: 4px;
         }
-        .role {
+        .sub-title {
             font-size: 12px;
             padding-bottom: 4px;
         }

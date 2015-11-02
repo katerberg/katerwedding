@@ -63,11 +63,11 @@ html, body {
   background-color: rgba(120, 0, 0, 0.7);
   padding: 50px 10px 10px;
   font-size: 24px; }
-  .container .name {
+  .container .title {
     font-family: 'Press Start 2P', cursive;
     font-size: 18px;
     padding-bottom: 4px; }
-  .container .role {
+  .container .sub-title {
     font-family: 'Press Start 2P', cursive;
     font-size: 16px;
     padding-bottom: 4px; }
@@ -86,10 +86,10 @@ html, body {
 @media screen and (max-width: 1200px) {
   .container {
     font-size: 16px; }
-    .container .name {
+    .container .title {
       font-size: 14px;
       padding-bottom: 4px; }
-    .container .role {
+    .container .sub-title {
       font-size: 12px;
       padding-bottom: 4px; } }
 
