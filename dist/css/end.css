@@ -1,0 +1,17 @@
+#end {
+  background-color: #57169A;
+  text-align: center;
+  color: black;
+  height: 301px; }
+  #end .title {
+    font-size: 18px;
+    width: 100%;
+    z-index: 500; }
+  #end .copy-text {
+    z-index: 600;
+    position: fixed;
+    left: 20%;
+    width: 60%; }
+    #end .copy-text .title div {
+      position: relative;
+      display: block; }

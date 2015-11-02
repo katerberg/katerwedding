@@ -2,7 +2,7 @@
     background-color: rgb(100,176,255);
     text-align: center;
     color: black;
-    height: 6501px;
+    height: 5001px;
     .title {
         color: rgb(173, 0, 102);
         bottom: 400px;
@@ -42,7 +42,6 @@
             height: 3000px;
             background-image: url("../images/bricks.png");
             background-repeat: repeat;
-            bottom: -60px;
             &.left {
                 right: calc(50% + 499px);
                 transform: scaleX(-1);

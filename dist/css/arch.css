@@ -2,7 +2,7 @@
   background-color: #64b0ff;
   text-align: center;
   color: black;
-  height: 6501px; }
+  height: 5001px; }
   #arch .title {
     color: #ad0066;
     bottom: 400px; }
@@ -35,8 +35,7 @@
       width: 50%;
       height: 3000px;
       background-image: url("../images/bricks.png");
-      background-repeat: repeat;
-      bottom: -60px; }
+      background-repeat: repeat; }
       #arch .bricks.side.left {
         right: calc(50% + 499px);
         -webkit-transform: scaleX(-1);

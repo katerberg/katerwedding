@@ -359,7 +359,7 @@
   background-color: #64b0ff;
   text-align: center;
   color: black;
-  height: 6501px; }
+  height: 5001px; }
   #arch .title {
     color: #ad0066;
     bottom: 400px; }
@@ -392,8 +392,7 @@
       width: 50%;
       height: 3000px;
       background-image: url("../images/bricks.png");
-      background-repeat: repeat;
-      bottom: -60px; }
+      background-repeat: repeat; }
       #arch .bricks.side.left {
         right: calc(50% + 499px);
         -webkit-transform: scaleX(-1);
@@ -419,6 +418,24 @@
     margin-left: 0px;
     left: 0;
     width: 100%; } }
+
+#end {
+  background-color: #57169A;
+  text-align: center;
+  color: black;
+  height: 301px; }
+  #end .title {
+    font-size: 18px;
+    width: 100%;
+    z-index: 500; }
+  #end .copy-text {
+    z-index: 600;
+    position: fixed;
+    left: 20%;
+    width: 60%; }
+    #end .copy-text .title div {
+      position: relative;
+      display: block; }
 
 body {
   color: black;
@@ -458,6 +475,7 @@ body {
     stroke-width: 13px; }
 
 #audio {
+  z-index: 600;
   position: fixed;
   top: 1vh;
   right: 1vw;

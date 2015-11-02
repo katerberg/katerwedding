@@ -18,8 +18,8 @@
         bffs: 8100,
         anniversary: 5950,
         stl: 6300,
-        arch: 4000,
-        party: 0
+        arch: 5000,
+        end: 300
     };
     var s = skrollr.init({
         constants: buildConstants(relative),

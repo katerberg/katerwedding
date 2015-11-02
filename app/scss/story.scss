@@ -7,6 +7,7 @@
 @import 'anniversary';
 @import 'stl';
 @import 'arch';
+@import 'end';
 
 body{
     color: black;
@@ -51,6 +52,7 @@ body{
 }
 
 #audio {
+    z-index: 600;
     position: fixed;
     top: 1vh;
     right: 1vw;
