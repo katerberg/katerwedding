@@ -101,6 +101,19 @@ html, body {
     .description {
         margin-top: 8px;
     }
+
+    .pane-container {
+        display: flex;
+        margin-top: 16px;
+        .half-pane {
+            width: 50%;
+            display: inline-block;
+        }
+    }
+
+    li {
+        list-style: none;
+    }
 }
 
 #done {

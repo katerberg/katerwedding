@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+html, body {
+  height: 100%;
+  background-color: #57169A;
+  color: white;
+  font-family: sans-serif; }
+
+.skrollr-desktop body {
+  height: 100% !important; }
+
+.parallax-image-wrapper {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 50%;
+  top: -50%; }
+  .parallax-image-wrapper.right > div {
+    left: 50%; }
+  .parallax-image-wrapper > div {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200%;
+    top: -50%;
+    width: 50%; }
+    .parallax-image-wrapper > div.skrollable-between {
+      display: inline-block; }
+
+.no-skrollr .parallax-image-wrapper {
+  display: none !important; }
+
+#skrollr-body {
+  height: 100%;
+  overflow: visible;
+  position: relative; }
+
+.content {
+  height: 50%;
+  width: 50%; }
+  .content.right {
+    margin-left: 50%; }
+  .content.mobile {
+    display: none; }
+
+.photo {
+  text-align: center;
+  height: 0px;
+  box-sizing: border-box; }
+
+.photo-full {
+  height: 100%; }
+
+.container {
+  height: calc(100% - 60px);
+  background-color: rgba(120, 0, 0, 0.7);
+  padding: 50px 10px 10px;
+  font-size: 24px; }
+  .container a {
+    font-weight: 600;
+    color: white; }
+    .container a:focus {
+      color: white; }
+  .container .title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+    padding-bottom: 4px; }
+  .container .sub-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    padding-bottom: 4px; }
+  .container .description {
+    margin-top: 8px; }
+  .container .pane-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 16px; }
+    .container .pane-container .half-pane {
+      width: 50%;
+      display: inline-block; }
+  .container li {
+    list-style: none; }
+
+#done {
+  margin-top: 30%;
+  text-align: center;
+  padding-bottom: 8px; }
+
+@media screen and (max-width: 1550px) {
+  .container {
+    font-size: 18px; } }
+
+@media screen and (max-width: 1200px) {
+  .container {
+    font-size: 16px; }
+    .container .title {
+      font-size: 14px;
+      padding-bottom: 4px; }
+    .container .sub-title {
+      font-size: 12px;
+      padding-bottom: 4px; } }
+
+@media screen and (max-width: 630px) {
+  .content {
+    height: 100%;
+    width: 100%; }
+    .content.right {
+      margin-left: 0; }
+  .container {
+    position: relative;
+    top: 80%;
+    height: auto; }
+  .parallax-image-wrapper > div {
+    width: 100%; }
+  .parallax-image-wrapper.right > div {
+    left: 0; }
+  .hide-on-mobile {
+    display: none !important; } }
