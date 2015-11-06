@@ -76,7 +76,7 @@ html, body {
     font-family: 'Press Start 2P', cursive;
     font-size: 16px;
     padding-bottom: 4px; }
-  .container .description {
+  .container .description, .container .hotel {
     margin-top: 8px; }
   .container .pane-container {
     display: -webkit-box;
@@ -90,13 +90,15 @@ html, body {
       width: 50%; }
     .container .pane-container .third-pane {
       width: 33.33%; }
+      .container .pane-container .third-pane .title {
+        margin-bottom: 8px; }
   .container img.full-sized {
     max-width: 100%;
     max-height: 50%;
     padding: 4px; }
   .container li {
     list-style: none; }
-  .container .centered {
+  .container .centered, .container .hotel {
     text-align: center; }
 
 #done {
@@ -116,7 +118,9 @@ html, body {
       padding-bottom: 4px; }
     .container .sub-title {
       font-size: 12px;
-      padding-bottom: 4px; } }
+      padding-bottom: 4px; }
+    .container .third-pane {
+      font-size: 12px; } }
 
 @media screen and (max-width: 630px) {
   .content {

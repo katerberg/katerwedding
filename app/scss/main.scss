@@ -98,8 +98,12 @@ html, body {
         padding-bottom: 4px;
     }
 
-    .description {
+    .description,.hotel {
         margin-top: 8px;
+    }
+
+    .hotel {
+        @extend .centered;
     }
 
     .pane-container {
@@ -113,6 +117,9 @@ html, body {
         }
         .third-pane {
             width: 33.33%;
+            .title {
+                margin-bottom: 8px;
+            }
         }
     }
 
@@ -153,6 +160,9 @@ html, body {
         .sub-title {
             font-size: 12px;
             padding-bottom: 4px;
+        }
+        .third-pane {
+            font-size: 12px;
         }
     }
 }
