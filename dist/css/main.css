@@ -84,11 +84,20 @@ html, body {
     display: -ms-flexbox;
     display: flex;
     margin-top: 16px; }
-    .container .pane-container .half-pane {
-      width: 50%;
+    .container .pane-container .half-pane, .container .pane-container .thirdpane {
       display: inline-block; }
+    .container .pane-container .half-pane {
+      width: 50%; }
+    .container .pane-container .third-pane {
+      width: 33.33%; }
+  .container img.full-sized {
+    max-width: 100%;
+    max-height: 50%;
+    padding: 4px; }
   .container li {
     list-style: none; }
+  .container .centered {
+    text-align: center; }
 
 #done {
   margin-top: 30%;

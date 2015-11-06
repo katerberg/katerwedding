@@ -105,14 +105,29 @@ html, body {
     .pane-container {
         display: flex;
         margin-top: 16px;
-        .half-pane {
-            width: 50%;
+        .half-pane,.thirdpane {
             display: inline-block;
         }
+        .half-pane {
+            width: 50%;
+        }
+        .third-pane {
+            width: 33.33%;
+        }
+    }
+
+    img.full-sized {
+        max-width: 100%;
+        max-height: 50%;
+        padding: 4px;
     }
 
     li {
         list-style: none;
+    }
+
+    .centered {
+        text-align: center;
     }
 }
 
