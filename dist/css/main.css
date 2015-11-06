@@ -56,7 +56,8 @@ html, body {
   box-sizing: border-box; }
 
 .photo-full {
-  height: 100%; }
+  height: 100%;
+  margin-top: 50px; }
 
 .container {
   height: calc(100% - 60px);

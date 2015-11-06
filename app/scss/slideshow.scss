@@ -1,0 +1,16 @@
+.slideshow-container {
+    padding-top: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    position: relative;
+    overflow: hidden;
+    .slideshow {
+        width: 20000em;
+        position: relative;
+        img {
+            float: left;
+        }
+    }
+}
