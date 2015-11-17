@@ -34,6 +34,7 @@ gulp.task('sass', function() {
 gulp.task('dependentCss', function() {
     return gulp.src([basedir + 'scss/bootstrap.min.css',
         'bower_components/responsive-nav/*.css',
+        'bower_components/slick-*/**/*.css',
         'bower_components/font-*/**'])
         .pipe(gulp.dest('dist/css'));
 });

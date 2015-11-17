@@ -8,14 +8,14 @@
         <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/carousel.css">
         <link href="http://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" type="text/css">
         <script src="js/skrollr/dist/skrollr.min.js"></script>
         <script src="js/jquery/dist/jquery.min.js"></script>
-        <script src="js/jcarousel/dist/jquery.jcarousel.min.js"></script>
+        <script src="js/slick-carousel/slick/slick.min.js"></script>
         <script src="js/responsive-nav/responsive-nav.min.js"></script>
-        <script src="js/jcarousel.js"></script>
         <link rel="stylesheet" href="css/responsive-nav.css">
+        <link rel="stylesheet" href="css/slick-carousel/slick/slick.css">
+        <link rel="stylesheet" href="css/carousel.css">
     </head>
     <body id="wedding-party">
         <header>
@@ -95,22 +95,25 @@
 
         <div id="skrollr-body">
             <div class="photo photo-full">
-                <div class="jcarousel-wrapper">
-                    <div class="jcarousel">
-                        <ul>
-                            <li><img src="images/slideshow/1.jpg" /></li>
-                            <li><img src="images/slideshow/2.jpg" /></li>
-                            <li><img src="images/slideshow/3.jpg" /></li>
-                            <li><img src="images/slideshow/4.jpg" /></li>
-                            <li><img src="images/slideshow/5.jpg" /></li>
-                            <li><img src="images/slideshow/6.jpg" /></li>
-                        </ul>
-                    </div>
-
-                    <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
-                    <a href="#" class="jcarousel-control-next">&rsaquo;</a>
-
-                    <p class="jcarousel-pagination"></p>
+                <div id="carousel">
+                    <ul class="fade">
+                        <li><img src="images/slideshow/0.jpg" /></li>
+                        <li><img src="images/slideshow/1.jpg" /></li>
+                        <li><img src="images/slideshow/2.jpg" /></li>
+                        <li><img src="images/slideshow/3.jpg" /></li>
+                        <li><img src="images/slideshow/4.jpg" /></li>
+                        <li><img src="images/slideshow/5.jpg" /></li>
+                        <li><img src="images/slideshow/6.jpg" /></li>
+                        <li><img src="images/slideshow/7.jpg" /></li>
+                        <li><img src="images/slideshow/8.jpg" /></li>
+                        <li><img src="images/slideshow/9.jpg" /></li>
+                        <li><img src="images/slideshow/10.jpg" /></li>
+                        <li><img src="images/slideshow/11.jpg" /></li>
+                        <li><img src="images/slideshow/12.jpg" /></li>
+                        <li><img src="images/slideshow/13.jpg" /></li>
+                        <li><img src="images/slideshow/14.jpg" /></li>
+                        <li><img src="images/slideshow/15.jpg" /></li>
+                    </ul>
                 </div>
             </div>
             <div class="photo name right" id="abbey"></div>
@@ -226,7 +229,14 @@
         </script>
         <script>
             $(function() {
-                $('.slideshow').jcarousel({
+                $('.fade').slick({
+                    dots: true,
+                    infinite: true,
+                    speed: 500,
+                    fade: true,
+                    slidesToShow: 1,
+                    adaptiveHeight: true,
+                    cssEase: 'linear'
                 });
             });
         </script>
