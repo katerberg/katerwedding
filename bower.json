@@ -15,6 +15,7 @@
     "skrollr-menu": "~1.0.3",
     "responsive-nav": "~1.0.39",
     "howler": "~1.1.28",
-    "skrollr": "~0.6.30"
+    "skrollr": "~0.6.30",
+    "slick-carousel": "~1.5.8"
   }
 }
