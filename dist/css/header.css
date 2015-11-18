@@ -43,6 +43,8 @@ header {
       display: inline-block; }
       header .menu > li.active a {
         color: rgba(255, 255, 255, 0.7); }
+      header .menu > li.hide-on-desktop {
+        display: none; }
 
 @media screen and (max-width: 40em) {
   header h1 {
@@ -62,3 +64,6 @@ header {
       padding: 4px 0px 4px; }
       header .menu > li:last-child {
         margin-bottom: 0; } }
+
+.skrollr-mobile header .menu > li.hide-on-desktop {
+  display: inline-block; }

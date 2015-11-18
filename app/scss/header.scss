@@ -55,6 +55,9 @@ header {
             &.active a {
                 color: rgba(255, 255, 255, 0.7);
             }
+            &.hide-on-desktop {
+                display: none;
+            }
         }
     }
 }
@@ -86,4 +89,7 @@ header {
             }
         }
     }
+}
+.skrollr-mobile header .menu > li.hide-on-desktop {
+    display: inline-block;
 }

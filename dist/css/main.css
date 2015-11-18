@@ -136,6 +136,7 @@ html, body {
   .parallax-image-wrapper > div {
     width: 100%; }
   .parallax-image-wrapper.right > div {
-    left: 0; }
-  .hide-on-mobile {
-    display: none !important; } }
+    left: 0; } }
+
+.skrollr-mobile .hide-on-mobile {
+  display: none !important; }

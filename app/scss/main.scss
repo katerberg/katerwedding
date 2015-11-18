@@ -145,6 +145,7 @@ html, body {
     padding-bottom: 8px;
 }
 
+
 @media screen and (max-width: 1550px) {
     .container {
         font-size: 18px;
@@ -189,7 +190,8 @@ html, body {
             left: 0;
         }
     }
-
+}
+.skrollr-mobile {
     .hide-on-mobile {
         display:none !important;
     }

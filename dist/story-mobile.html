@@ -1,0 +1,21 @@
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta name=viewport content="initial-scale=1"><meta http-equiv=X-UA-Compatible content="IE=edge"><title>Neem and Marcus</title><link rel=stylesheet href=css/font-awesome/css/font-awesome.min.css><link rel=stylesheet href=css/header.css><link rel=stylesheet href=css/main.css><link rel=stylesheet href=css/story-mobile.css><link href="http://fonts.googleapis.com/css?family=Press+Start+2P" rel=stylesheet type=text/css><script src=js/modernizr.js></script><script src=js/oldbrowser.js></script><script src=js/jquery/dist/jquery.min.js></script><script src=js/slick-carousel/slick/slick.min.js></script><script src=js/responsive-nav/responsive-nav.min.js></script><link rel=stylesheet href=css/responsive-nav.css><link rel=stylesheet href=css/slick-carousel/slick/slick.css><link rel=stylesheet href=css/carousel.css></head><body id=story-mobile><header><h1>Neem and Marcus</h1><ul class=menu><li class=active><a href=# data-scroll>Story</a></li><li><a href=party.html data-scroll>Party</a></li></ul></header><div id=carousel><ul class=fade><li><img src=images/story-mobile/0.png></li><li><img src=images/story-mobile/1.png></li><li><img src=images/story-mobile/3.png></li><li><img src=images/story-mobile/4.png></li><li><img src=images/story-mobile/5.png></li><li><img src=images/story-mobile/6.png></li><li><img src=images/story-mobile/7.png></li><li><img src=images/story-mobile/8.png></li><li><img src=images/story-mobile/9.png></li><li><img src=images/story-mobile/10.png></li><li><img src=images/story-mobile/11.png></li><li><img src=images/story-mobile/12.png></li><li><img src=images/story-mobile/13.png></li><li><img src=images/story-mobile/14.png></li><li><img src=images/story-mobile/15.png></li><li><img src=images/story-mobile/16.png></li><li><img src=images/story-mobile/17.png></li><li><img src=images/story-mobile/18.png></li><li><img src=images/story-mobile/19.png></li><li><img src=images/story-mobile/20.png></li></ul></div><script>
+            $(function() {
+                var nav = responsiveNav(".menu", {
+                    label: "<i class='fa fa-bars'></i>"
+                });
+            });
+        </script><script>
+            $(function() {
+                $('.fade').slick({
+                    dots: true,
+                    infinite: true,
+                    speed: 500,
+                    fade: true,
+                    slidesToShow: 1,
+                    adaptiveHeight: true,
+                    cssEase: 'linear'
+                });
+            });
+        </script><script>
+            alert('Please view this page on a non-mobile device. This is just a sad simulacrum of the story.');
+        </script></body></html>
