@@ -53,7 +53,7 @@ header {
     width: 100%; }
     header .menu a {
       width: 100%;
-      display: block; }
+      display: inline-block; }
     header .menu > li {
       background-color: #AA40FF;
       display: block;
@@ -61,9 +61,7 @@ header {
       width: 100%;
       text-align: center;
       margin-bottom: 4px;
-      padding: 4px 0px 4px; }
-      header .menu > li:last-child {
-        margin-bottom: 0; } }
+      padding: 4px 0px 4px; } }
 
 .skrollr-mobile header .menu > li.hide-on-desktop {
   display: inline-block; }
