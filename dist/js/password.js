@@ -6,7 +6,6 @@ var md = new MobileDetect(window.navigator.userAgent);
 var input = '';
 var expected = 'wedding';
 function handleEntry(ch) {
-    console.log(ch);
     if (ch == expected[input.length]) {
         $('#pw' + input.length).text(ch);
         input += ch;
