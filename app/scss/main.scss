@@ -169,7 +169,7 @@ html, body {
     }
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 670px), screen and (max-height: 760px) {
     .content {
         height: 100%;
         width: 100%;
