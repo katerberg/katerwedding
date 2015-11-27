@@ -123,7 +123,7 @@ html, body {
     .container .third-pane {
       font-size: 12px; } }
 
-@media screen and (max-width: 670px), screen and (max-height: 760px) {
+@media screen and (max-width: 670px) {
   .content {
     height: 100%;
     width: 100%; }
