@@ -1,10 +1,7 @@
 (function() {
 'use strict';
 
-var md;
-if (MobileDetect) {
-    md = new MobileDetect(window.navigator.userAgent);
-}
+var md = new MobileDetect(window.navigator.userAgent);
 
 var input = '';
 var expected = 'wedding';
@@ -13,7 +10,7 @@ function handleEntry(ch) {
         $('#pw' + input.length).text(ch);
         input += ch;
         if (input == expected) {
-            if (md && md.mobile()) {
+            if (md.mobile()) {
                 window.location.href = 'party.html';
             } else {
                 window.location.href = 'story.html';
